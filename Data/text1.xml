@@ -9,11 +9,11 @@
             <title type="sub">Digital Edition</title>
             <author>
               <persName xml:id="SIC">Sophia Isabella Crooks</persName>
-              <persName xml:id="KLG">Kayla Le-Rose Graham</persName>
+              <persName xml:id="KLG">Kayla LeRose Graham</persName>
               <orgName xml:id="AADHum">African American History, Culture, an Digital Humanities (AADHum)</orgName>
               </author>
               <respStmt>
-                <resp>Template provided by</resp>
+                <resp>TEI template provided by</resp>
                 <persName>Jessica Lu</persName>
               </respStmt>
               <respStmt>
@@ -35,53 +35,53 @@
          <sourceDesc>
             <bibl>
 <title>Thread on African tribes/cultures featured in #BlackPanther. #Wakanda</title>
-<!-- https://twitter.com/diasporicblues/status/964770975190528000?s=12 Here is the URl link to our original digital text. We were having trouble finding TEI tags that fit the decription of the "electronic source (URL) for the original digital text".-->
 <publisher>
   <orgName>Twitter.com</orgName>
 </publisher>
 <author>@diasporicblues</author>
-<pubPlace>
+<pubPlace ref="https://twitter.com/diasporicblues/status/964770975190528000?s=12">
   <settlement>San Francisco</settlement>
   <region>California</region>
 </pubPlace>
-<date when="2018-02-17">Feburary 17, 2018</date>
+<date when="2018-02-17">February 17, 2018</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
 <projectDesc>
-  <p>Originally prepared for the purpose of amilifying the ideas that Black Twitter users have on the blockbuster film Black Panther which was released on Feburary 16, 2018.</p>
-<p>This thread was encoded because it examplifies the celebration of blackness. Black Twitter users are excited about the celebration of Black, specifically African culture and tradtions that were depicted in the Black Panther movie. These people used Twitter as a digital space to discuss aspects of their culture.</p>
+  <p>Originally prepared for the purpose of amplifying the ideas that Black Twitter users have on the blockbuster film Black Panther which was released on Feburary 16, 2018.</p>
+<p>This thread was encoded because it exemplifies the celebration of blackness. Black Twitter users are excited about the celebration of Black, specifically African culture and tradtions that were depicted in the Black Panther movie. These people used Twitter as a digital space to discuss aspects of their culture.</p>
   </projectDesc>
   <samplingDecl>
 <p>Only one or two pictures were encoded from each tweet in the thread using the appropriate TEI tags. This is due to the fact that only one picture showing an aspect of African culture decpicted in Black Panther along with one picture showing African culture in the real world is suffiecent enough to develop an understanding about what the author is describing in each tweet.</p>
   </samplingDecl>
   <editorialDecl>
-  <normalization>
+  <normalization source="https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=2162&context=lajm"> <!-- Error is due to the fact that Atom is reading the word "context" in the link provided as a command or encoding decision. -->
+  <p>African American vernacular that was used in some of the tweets has been retained in order to normalize it as a viable language.</p>
+</normalization>
+<normalization>
     <p>Hashtags (#Wakanda and #BlackPanther) have been retained at the end of each tweet to emphasize the goal of the author who wrote this tweet thread. The author hoped to reach a wide range of people so that her work could be viewed by many in order to encourage conversation about African culture, tribes, and traditions depicted in Black Panther.</p>
-    <p>African American vernacular that was used in some of the tweets has been retained in order to normalize it as a viable language. </p>
-    <p>The emojis used in the tweet thread to show the flag of the African country that some of the characters come from has been omitted. This was done because we believe that it is not important to the actual content or importance of the text. Also, TEI has very little tags that allow for emojis to be encoded.</p> <!-- TEi might want to consider adding new tags in order to make it easier for people to encode digital texts that include things like emojis, videos, pictures, hyperlinks, etc. -->
-  </normalization>
+    <p>The emojis used in the tweet thread to show the flag of the African country that some of the characters come from has been omitted. This was done because we believe that it is not important to the actual content or importance of the text. Also, TEI has very little tags that allow for emojis to be encoded.</p> <!-- TEI might want to consider adding new tags in order to make it easier for people to encode digital texts that include things like emojis, videos, pictures, hyperlinks, etc. -->
+</normalization>
   </editorialDecl>
       </encodingDesc>
   </teiHeader>
   <text>
-      <body>
+    <body>
 <div>
          <p>Thread on African tribes/cultures featured in #BlackPanther. #Wakanda</p>
-         <p>41,132 Retweets 55,784 Likes</p> <!-- We choose to include the number of retweets and likes for the opening tweet of this thread to emphasize the impact that this tweet thread has had on the Twitter community.  Many people have viewed this thread, interacted with it, and agreed with many aspects of it. The popularity it has had indicates high levels of postive communication about different aspects of African culture in the film.  --> <!--The date in which we encoded the retweets and likes was April 23, 2018 (these numbers change so it is important to indicate the date when these numbers were encoded) -->
+         <p>41,132 Retweets 55,784 Likes</p> <!-- We choose to include the number of retweets and likes for the opening tweet of this thread to emphasize the impact that this tweet thread has had on the Twitter community.  Many people have viewed this thread, interacted with it, and agreed with many aspects of it. The popularity of this twitter thread emphasizes the use of digital spaces by the black community to make connections. The black community is able to use digital spaces such as social media platforms to talk with other members of the community. These digital spaces provide black twitter users with a place to discuss different events that have affected and continue to affect the black community. --> <!--The date in which we encoded the retweets and likes was April 23, 2018 (these numbers change so it is important to indicate the date when these numbers were encoded) -->
 </div>
          <div>
 <p><orgName xml:id="MUR">Mursi</orgName> and <orgName xml:id="SUR">Surma</orgName> Lip Plates. Lip plates or disks are a form of ceremonial body modification. While many cultures use them they're best known by the <orgName>Surma</orgName> and <orgName>Mursi</orgName> tribes in <country xml:id="ETH" type="nation">Ethiopia</country>. #BlackPanther #Wakanda</p>
 <figure><graphic url="https://cdn.vox-cdn.com/uploads/chorus_asset/file/10264335/Black_Panther__film__123.jpg"/><figDesc>This figure depicts characters of a specific tribe in the movie Black Panther. The tribe leader wears a Surma or Mursi lip plate as described by the author of this tweet thread.</figDesc></figure>
-<figure><graphic url="https://pbs.twimg.com/media/DWOPGANVMAAV8n-.jpg"/><figDesc>This picture is of a women who belongs to an actual Surma or Mursi tribe in Ethiopia. She wears a lip plate which is simliar to the tribe leader character in the movie.</figDesc></figure> <!-- We believe that the author of this thread choose to include pictures of the characters from the movie and pictures of people in the real world to show how much detail was put into dressing the characters in accuarte attire. -->
-    </div>
+<figure><graphic url="https://pbs.twimg.com/media/DWOPGANVMAAV8n-.jpg"/><figDesc>This picture is of a women who belongs to an actual Surma or Mursi tribe in Ethiopia. She wears a lip plate which is simliar to the tribe leader character in the movie.</figDesc></figure> <!-- We decided to encode the pictures used by the author of this markup in order to show how much attention was put into retaining African culture in the movie. People can view the pictures from the movie alongside pictures from real life and make comparisons. Africans or African Americans can also view the pictures and see themslves represented within the film.</!-->
          <div>
 <p><orgName xml:id="ZUL">Zulu</orgName> headdress. <persName xml:id="QROM">Queen Ramonda</persName>wears a distinct headdress. It's reminiscent of the reed <orgName>Zulu</orgName> flared hats or "Isicholos." The <orgName>Zulu</orgName> headdresses are traditionally worn by married women for ceremonial celebrations.</p>
 <figure><graphic url="https://vergehub.com/wp-content/uploads/2018/02/Zulu-headdress.jpg"/><figDesc>This picture is a collage of four different pictures. Two of the pictures show the character, Queen Romonda, wearing a traditional Zulu headdress in the film. The other two pictures show two real life women who wear the "Isicholos". </figDesc></figure>
          </div>
          <div>
-<p>Many of the costumes have unique and futuristic ornamentation and details. These were made by emulating styles of the <orgName xml:id="MAAS"><choice><orig>Masai people</orig> <corr>Maasai people</corr></choice></orgName>. The <orgName>Maasai people</orgName> of East Africa live in southern <country>Kenya</country> and northern <country xml:id="TAN">Tanzania</country>. #BlackPanther #Wakanda</p> <!-- We choose to correct the spelling of the name of the tribe so that people that view our website are given accurate information regarding the spelling of the tribe described in this tweet thread. -->
+<p>Many of the costumes have unique and futuristic ornamentation and details. These were made by emulating styles of the <orgName xml:id="MAAS"><choice><orig>Masai people</orig> <corr>Maasai people</corr></choice></orgName>. The <orgName>Maasai people</orgName> of East Africa live in southern <country>Kenya</country> and northern <country xml:id="TAN">Tanzania</country>. #BlackPanther #Wakanda</p> <!-- We choose to correct the spelling of the name of the tribe so that people that view our website are given accurate information regarding the spelling of the tribe described in this tweet thread. Providing people with accurate information pertaining to non-white populations is especially important considering not much attention is given to making sure accurate information is spread about people of color i.e. continuation of black sterotypes, the Christoper Columbus narrative, the portrayal African countries as unstable and in need of "saviors". -->
 <figure><graphic url="https://static.pulse.ng/img/incoming/origs8001409/6319721768-w900-h600/DWOQtIRUMAAOs3k.jpg"/><figDesc>This picture depicts the "futuristic" costumes worn by some of the characters in the movie.</figDesc></figure>
 <figure><graphic url="https://zoede.com/wp-content/uploads/2018/02/maasai-warriors-dora-milaje-black-panther-african-influences-zoedeblog.jpg"/><figDesc>This picture is of a group of actual Maasai people. It can be seen that the costumes used in the film were influenced by the tradtional attire of this group of people.</figDesc></figure>
          </div>
@@ -155,7 +155,7 @@
 <figure><graphic url="https://www.ghanacrusader.com/wp-content/uploads/2018/02/bp-kente.jpg"/><figDesc>Here is a collage of photos that include two images of T'Challa, played by Chadwick Boseman, wearing a Kente scarf around his neck as well as photos of Africans in the real world wearing Kente fabric.</figDesc></figure>
         </div>
         <div>
-<p>The Black women who spent months researching and making #Wakanda come to life. <persName xml:id="RUC">Ruth Carter</persName> - costume designer and <persName xml:id="HAB">Hannah Beachler</persName> - production designer. #Black Panther #Wakanda</p>
+<p><seg type="celebration-of-blackness">The Black women who spent months researching and making #Wakanda come to life.</seg><persName xml:id="RUC">Ruth Carter</persName> - costume designer and <persName xml:id="HAB">Hannah Beachler</persName> - production designer. #Black Panther #Wakanda</p>
 <figure><graphic url="https://media.pri.org/s3fs-public/styles/original_image/public/embed/2018/02/BP_embed_1_RuthCarter1.jpeg?itok=5IJHSMYc"/><figDesc>This is a picture of the costume designer for Black Panther, Ruth E. Carter, standing in what looks like a studio in which she designed the costumes for the characters in Black Panther.</figDesc></figure>
 <figure><graphic url="https://vignette4.wikia.nocookie.net/marvelcinematicuniverse/images/7/7d/Hannah_Beachler.jpg/revision/latest/scale-to-width-down/350?cb=20160918105602" /><figDesc>Pictured here is Hannah Beachler, the production designer for Black Panther, on the red carpet.</figDesc></figure>
         </div>
@@ -164,7 +164,7 @@
 <figure><media mimeType="video" url="https://youtu.be/hlkybvVEQ4g"><desc>This is 3 minute and 56 second music video of the song Babes wodumo Ft Mampintsha - Wololo which was played during the film.</desc></media></figure>
         </div>
         <div>
-<p><seg type="blackness">Can we take a moment to appreciate how Africans across the continent</seg> came out for #Black Panther movie premiere! This is <settlement xml:id="LAG">Lagos</settlement> <country>Nigeria</country>. #Wakanda </p> <!-- When we use the seg tag with the type as "blackness" we mean the celebrtion of blackness, however an error occurs when we do this. -->
+<p><seg type="celebration-of-blackness">Can we take a moment to appreciate how Africans across the continent</seg> came out for #Black Panther movie premiere! This is <settlement xml:id="LAG">Lagos</settlement> <country>Nigeria</country>. #Wakanda </p>
 <figure><graphic url="https://www.ossifymedia.com/wp/wp-content/uploads/Black-Panther-Premiere-Nigeria.png"/><figDesc>In this picture there four Black people in traditonal African attire at the premiere of Black Panther in Lagos, Nigeria.</figDesc></figure>
         </div>
         <div>
@@ -180,10 +180,11 @@
 <p> Tribal make-up is practiced in many African tribes.The make-up, often in the form of face paint, is used for many different reasons and can signify many different things such as hunting, religious and traditional reasons, military purposes or to scare an enemy. #BlackPanther</p>
 <figure><graphic url="http://media.comicbook.com/2017/06/black-panther-shuri-1001960-1280x0.jpg"/><figDesc>This is an image of Letitia Wright as the charcter Shuri, who wears paint on her face, very simliar to tribal make-up used by African tribes.</figDesc></figure>
         </div>
-      <div>
-<p> #BlackPanther was totally a <seg type="blackness">Afrocentric natural hair movie</seg>. Inspiration came from this collection of black hairstyles shot by the Nigerian photographer <persName xml:id="JDOO">J.D. ’Okhai Ojeikere</persName>. #Wakanda</p>
+    <div>
+<p> #BlackPanther was totally a <seg type="celebration-of-blackness">Afrocentric natural hair movie</seg>. Inspiration came from this collection of black hairstyles shot by the Nigerian photographer <persName xml:id="JDOO">J.D. ’Okhai Ojeikere</persName>. #Wakanda</p>
 <figure><graphic url="https://www.artsy.net/artist/jd-okhai-ojeikere"/><figDesc>This is a picture of girl with a natural Black hairstyle which was included in the collection of photos by the Nigerian photographer J. D. ’Okhai Ojeikere.</figDesc></figure>
-      </div>
+  </div>
+  </div>
   </body>
   </text>
 </TEI>
