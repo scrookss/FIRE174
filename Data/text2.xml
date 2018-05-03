@@ -5,19 +5,82 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title></title>
+            <title type="main">Black Representation in Black Panther</title>
+            <title type="sub">Digital Edition 2</title>
+            <author>
+<persName xml:id="SIC">Sophia Isabella Crooks</persName>
+<persName xml:id="KLG">Kayla LeRose Graham</persName>
+<orgName xml:id="AADHum">African American History, Culture, an Digital Humanities (AADHum)</orgName>
+            </author>
+            <respStmt>
+              <resp>TEI template provided by</resp>
+              <persName>Jessica Lu</persName>
+            </respStmt>
+            <respStmt>
+<resp>Encoded by</resp>
+<persName ref="SIC">Sophia Crooks</persName>
+<persName ref="KLG">Kayla Graham</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+           <publisher>
+        <orgName ref="AADHum">African American History, Culture, an Digital Humanities (AADHum)</orgName>
+           </publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland</region>
+          </pubPlace>
+          <date when="2018-05-02">May 2, 2018</date>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <bibl>
+<title type="main">Black Panther let me see myself as a superhero for the first time</title>
+<title type="sub">Marvel has finally used its power for the good of representation</title>
+<publisher>
+<orgName>Vox Media</orgName>
+</publisher>
+<author>
+  <persName xml:id="AF">Allegra Frank</persName>
+</author>
+<pubPlace ref="https://www.polygon.com/2018/2/26/17030036/black-panther-representation-in-hollywood-opinion">
+<settlement>New York City</settlement>
+<region>New York</region>
+<settlement>Washington D.C.</settlement><!-- There are two headquater locations for this publisher. That is why we decided to list two settlement tags and one region tag. -->
+</pubPlace>
+<date when="2018-02-26"> February 26, 2018</date>
+            </bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+<projectDesc>
+<p></p>
+</projectDesc>
+<samplingDecl>
+<p>pictures</p>
+</samplingDecl>
+<editorialDecl>
+  <normalization>
+<p>advertisments</p>
+<p>hyperlinks</p>
+  </normalization>
+</editorialDecl>
+      </encodingDesc>
   </teiHeader>
-  <text>
+<text>
       <body>
-         <p>Some text here.</p>
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/bk4DRQdjaABp8S4m0ZPvqYf_yns=/0x0:5784x3855/920x613/filters:focal(2430x1466:3354x2390):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58824809/BlackPanther596d2f0c153d1.0.jpg"></graphic><figDesc>This photo shows Lupita Nyong'o's character, Nakia, and Chadwick Boseman's character, T'Challa walking down a flight of stairs during a scene in the film. They both stand out from the rest of the people in this photo because of their futuristic African-inspired clothing.</figDesc></figure>
+<p>Calling Black Panther one of the most important films I’ve ever seen definitely sounds overdramatic. But this isn’t hyperbolic, and I’m not alone in saying this. For what feels like the first time, an entire group of people that look like me — like many of us — get to be the heroes in a big-budget, massively successful film. And there’s no hiding who they are or where they’re from in Black Panther; they’re <trait type="physical"><label>ethnicity</label><desc>African</desc></trait>, and they’re proud of it.</p>
+<p>Superhero movies are, by design, wish fulfillment: We want their powers! We want their invincibility! We want their fame! We want their abs! (We wouldn’t dare wearing spandex otherwise.) I obviously wish I had a body like Black Widow’s or the bank account of Tony Stark, and I can relate to Peter Parker’s anxiety. Yet as a woman of color, I’ve struggled to find myself in any Marvel movie to date, even while dutifully paying up to see them every few months like an average member of society.</p>
+<p>We’ve seen <orgName>Marvel Comics</orgName> be better about letting minority characters suit up; even Iron Man became a teenage African-American girl recently. But as <orgName>Vulture</orgName> noted back in 2013, ahead of the premiere of Thor: The Dark World, there continues to be a divide between the comic book and film sides of the company. What few people of color there are tend to be villains or supporting cast members, not the heroes on the poster. That lack of representation is meaningful, even if it doesn’t seem to affect box office numbers. (The Avengers, with a total of one black person and one woman in the main cast, remains one of the highest-grossing films of all time, after all.)</p>
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/ZFjm-egEU6UIBezN5p9s00A4rwg=/0x0:5350x3567/720x0/filters:focal(0x0:5350x3567):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10165683/BlackPanther5a544af14a477.jpg"></graphic><figDesc>This photo is of the character, Shuri, working in her labratory in the film. We'd like to note the author's caption for the picture "My girl Shuri, a teen tech genius".</figDesc></figure> <!-- We beleive that this picture was important to include considering Shuri's character has had an impact on the author and many others. It is rare to see a strong, intellegent, and independent black character that is interesed in technology. That is why the black community has used a variety of platforms to express their astonishment of the representation in this film.  -->
+<p>“<orgName>Marvel</orgName> currently has the eyeballs of hundreds of millions of moviegoers across the globe — something that’s never been true before for any comics company. It has a massive platform to tell all those viewers across the planet,” wrote <orgName>Vulture</orgName>. “‘Anyone can be a hero, regardless of race, gender, sexual orientation, or anything else.’ It’s not as if <orgName>Marvel</orgName> hasn’t tried and succeeded wildly in getting that very message across in the past.”</p>
+<p>The Marvel Cinematic Universe has finally made good on this potential. I could look at the ad for Black Panther and actually choose between multiple people I wanted to be: <persName>King T’Challa</persName>, calm and cool, towering above a group of women and men with varying skin tones and natural hair. There’s <persName>Nakia</persName> and <persName>Okoye</persName>, both of darker skin than most black women I see on screen, both independent and strong; and <persName>Shuri</persName>, a certifiable badass with amazing hair and smarts and — I could go on. Even <persName>Killmonger</persName>, his hair in dreadlocks, has a style I wanted to cop.</p>
+<p>For the first time, I watched a superhero movie without feeling so personally detached from it. I now want more than to look like <persName xml:id="LUN">Lupita N’yongo’s</persName> <persName>Nakia</persName>. I want to be her: a strong polyglot who laughs at the idea of settling down with <persName>T’Challa</persName>. Becoming <persName>Nakia</persName> (or some snarky, nap-prone, Allegra-style version of her) seems a whole lot more plausible to me than becoming <persName>Black Widow</persName> or, heck, <orgName>DC’s</orgName> <persName>Wonder Woman</persName>. In her I see the <trait type="place"><label>country</label><desc>African</desc></trait> cultural tenets I admire in my female relatives: fierce loyalty, a lack of physical self-consciousness and tenacity. It’s not that those other white or non-black women lack those; it’s that with <persName>Nakia</persName>, there’s an intimate specificity I’ve never gotten to see before.</p>
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/_osZ4DgWYeLjFlN6O7yIlEmSNsg=/0x0:6000x4000/720x0/filters:focal(0x0:6000x4000):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9546373/BlackPanther596d2f0f45777.jpg"></graphic><figDesc>This photo is of three characters: Nakia, T'Challa, and Okoye. The stand together looking over a balcony in this scene. We would also like to note the author's caption for this picture "Look at the hair on this crew".</figDesc></figure>
+<p>That kind of representation is meaningful. It may have taken <orgName>Marvel</orgName> more than four years to embrace its power to shirk Hollywood convention, but Black Panther is literally paying out in dividends. People of color are galvanizing around this film, from superhero-loving kids to older fans who’ve waited a long time for a movie like this. It’s now clearer than ever that a film starring a majority-black cast (and set in an empowered African nation, no less) doesn’t have to be a box office disappointment or a niche success. The right movie can become a cultural phenomenon.</p>
+<p>Director <persName xml:id="RC">Ryan Coogler’s</persName> fellow black filmmakers are also heralding him as a history-bound prodigal son. Coogler managed to translate his inherently black stories into a big-picture world where they rarely get to exist. It’s encouraging to viewers, and it’s inspiring to his forebears.</p>
+<p>“We all have our own version of [a black superhero movie], I’m sure,” said <persName xml:id="LD">Lee Daniels</persName>, one of just four African-American men to be nominated for a Best Director Oscar, in a recent <orgName>Hollywood Reporter</orgName> roundtable about Hollywood’s slow embrace of black filmmaking. “And he has paved the way now.”</p>
+<p>We can’t ignore the impact Black Panther is having and will continue to have. I know that the viewers still chanting “Wakanda forever!” won’t stop any time soon. Here’s hoping that Hollywood won’t, either.</p>
       </body>
   </text>
 </TEI>
