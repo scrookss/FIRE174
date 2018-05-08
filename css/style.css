@@ -1,4 +1,4 @@
-tei-teiHeader {
+tei-text {
   border: 2px solid black;
 }
 tei-supplied::before {
@@ -15,11 +15,6 @@ tei-seg type="black-representation" {
 font-weight: bold;
 color: blue;
 }
-tei-seg type="lack-of-representaton" {
-font-weight: bold;
-  color: green;
-}
-tei-seg type="black-hair" {
-font-weight: bold;
-  color: purple;
+tei-add {
+  display: none;
 }
