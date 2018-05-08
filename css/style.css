@@ -9,7 +9,7 @@ content: " )";
 }
 tei-seg {
 font-weight: bold;
-color: #FF0000;
+color: red;
 }
 tei-add {
   display: none;
