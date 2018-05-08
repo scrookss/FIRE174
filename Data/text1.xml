@@ -56,7 +56,7 @@
 <p>Only one or two pictures were encoded from each tweet in the thread using the appropriate TEI tags. This is due to the fact that only one picture showing an aspect of African culture decpicted in Black Panther along with one picture showing African culture in the real world is suffiecent enough to develop an understanding about what the author is describing in each tweet.</p>
   </samplingDecl>
   <editorialDecl>
-  <normalization source="https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=2162&context=lajm"> <!-- Error is due to the fact that Atom is reading the word "context" in the link provided as a command or encoding decision. -->
+  <normalization source="https://bit.ly/2FXFKrE"> <!-- Error is due to the fact that Atom is reading the word "context" in the link provided as a command or encoding decision. -->
   <p>African American vernacular that was used in some of the tweets has been retained in order to normalize it as a viable language.</p>
 </normalization>
 <normalization>
