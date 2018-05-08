@@ -1,6 +1,25 @@
 tei-teiHeader {
   border: 2px solid black;
 }
-tei-supplied {
-
+tei-supplied::before {
+content: " (";
+}
+tei-supplied::after {
+content: " )";
+}
+tei-seg type="celebration-of-blackness" {
+font-weight: bold;
+color: red;
+}
+tei-seg type="black-representation" {
+font-weight: bold;
+color: blue;
+}
+tei-seg type="lack-of-representaton" {
+font-weight: bold;
+  color: green;
+}
+tei-seg type="black-hair" {
+font-weight: bold;
+  color: purple;
 }
