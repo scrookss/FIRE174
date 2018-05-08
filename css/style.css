@@ -7,13 +7,9 @@ content: " (";
 tei-supplied::after {
 content: " )";
 }
-tei-seg type="celebration-of-blackness" {
+tei-seg {
 font-weight: bold;
-color: red;
-}
-tei-seg type="black-representation" {
-font-weight: bold;
-color: blue;
+color: #FF0000;
 }
 tei-add {
   display: none;
