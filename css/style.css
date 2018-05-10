@@ -11,3 +11,6 @@ tei-seg {
 font-weight: bold;
 color: red;
 }
+tei-label {
+  display: none;
+}
