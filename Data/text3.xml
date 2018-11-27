@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Reaction to Black Panther</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="time" quantity="7.13333">7 minutes and 8 seconds of the video was encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-11-09">November 9, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">TAKE ME TO WAKANDA!</title>
+<title type="sub">Black Panther Movie Review</title>
+<author xml:id="EFTI">Evelyn From The Internets
+<note>This is a Youtube username.</note>
+</author>
+<publisher>
+<orgName xml:id="YOUT">Youtube.com</orgName>
+</publisher>
+<pubPlace>
+Youtube.com
+<note>This is a Black place considering many Black Youtubers use this platform to express their beliefs, feelings, and attitudes towards different aspects of the world around them.</note>
+</pubPlace>
+<date when="2018-03-22">March 22, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="JRH">
+  <forename>Jesse</forename>
+  <surname>Rhines</surname>
+  </persName>
+  </author>
+  <title>Black Film/Black Future</title>
+  </analytic>
+  <monogr>
+  <title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+  <imprint>
+  <publisher>The Black Scholar</publisher>
+  <pubPlace>
+  <settlement>San Francisco</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date when="2015-04-14">April 14,2015</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+        <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+          <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+        </normalization>
+<p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+          </editorialDecl>
+  <samplingDecl>
+  <p>Only 7 minutes and 8 seconds out of the 12 minute and 23 second video was encoded. This was due to the fact that we beleive that the information that we transcribed was what was most important for the scope of our project. The information encoded works to amplify the ideas that this particular Black woman had on the Black Panther movie.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="AAVE">African American Vernacular English</language> <!--AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+    <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+      <forename>Ryan</forename>
+      <surname>Coogler</surname>
+    </persName>
+    <idno type="LCAF">no2014012055</idno>
+    <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people. This is why he directed the film the way that he did. He is partly responsible for the large amount of Black people taking to digital platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying.</note>
+</person>
+<person>
+<persName xml:id="MBJ" ref="http://id.loc.gov/authorities/names/no2012065564">
+<forename>Michael B.</forename>
+<surname>Jordan</surname>
+</persName>
+<idno type="LCAF">no2012065564</idno>
+<note>Michael B. Jordan is an actor who happened to play Killmonger in Black Panther. Himself and his character are important to the project considering the large amount of uproar on digital spaces that were a result of both his physical appearance but the actions of his character. Black people on online spaces discussed the implications of Michael's character in great detail.</note>
+</person>
+<person>
+<persName xml:id="LW" ref="http://id.loc.gov/authorities/names/no2018064908">
+<forename>Letitia</forename>
+<surname>Wright</surname>
+</persName>
+<idno type="LCAF">no2018064908</idno>
+<note>Letitia Wright is an actress who played Shuri in Black Panther. It important that she is amplified because she provided representation for Black girls and women interested in technology that is oftentimes not present in films. She has been praised specifically by Black women all over Twitter and other digital spaces.</note>
+</person>
+</listPerson>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>5 minutes and 15 seconds of the video was left out due to the fact that we beleive that the information spoken by the author during this time period did not have anything to do with our project, made on
+    <date when="2018-11-09">November 9, 2018</date>
+  </change>
+  <change>The B in Black was capitalized throughout the the transcription to amplify Black people, made on
+  <date when="2018-11-09">November 9, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <p>Somewhere there’s a child reciting the entire monologue complete with the accent and that brings a smile to my heart and puts a Shoki in my step, you feel what I’m saying? <persName ref="#RC">Ryan Coogler</persName>. You did that. <orgName ref="#YOUT">YouTube</orgName> world it’s me, <persName ref="EFTI">Evelyn</persName>. I have no idea how to organize this video in a succinct, palatable way. (accent) I am overwhelmed. This movie overwhelms me. So imma just hit you with some thoughts. Number one, if I could just be the light that reflects off <persName>Lupita’s</persName> shoulders. Not even the shoulder. What’s that thing between the shoulder and the neck?</p>
+        <p>Some days I feel like <persName>Killmonger’s</persName> neck vein, you know what I’m saying? There’s a lot of Black rage in that neck vein. A lot of pain in that jaw you know what I’m saying? I know how it feels! I got TMJ. They say it’s caused by “stress”. Huh. (accent) I wonder why. I have been using the term colonizer in my everyday language documented here on the Internet for years and it pleases me that it will be used more widely now. In <placeName>Wakanda</placeName>, you clearly don’t need lotion. The air itself has emollient properties. In <placeName>Wakanda</placeName>, your plantain is always at optimal ripeness and in <placeName>Wakanda</placeName> your Locs retwist themselves.</p>
+        <p>Okay so the first time I watched Black Panther I was purely taking in the visuals, you know? Hustle and bustle of the packed city center. Just the sleekness and (accent) the modernity-- the modernity of <persName>Shuri’s</persName> underground tech lab with the music bumping bumping. You know what I'm saying? The waterfalls, the mountains, just the landscape, the emollient skin -- everybody skin emollient. The baldhead baddies. Everybody in this film is fine. Alright? Everybody is a smooth 22 out of 10.</p>
+        <p>There is a scene where <persName>T’Challa</persName>-- I don’t know if it’s after he just becomes king-- and he’s walking down the hallway and he’s just walking with a dip. That dip. And I’m just like (fans self) alright, ok, that’s that dip! Whew! That’s that dip that got <persName>Obama</persName> into office. I don’t care what nobody says about making change. It was that dip! I loved that nobody was ever a villain in a vacuum. Those of y’all who said <persName>Killmonger</persName> was the villain. Pewww! Here goes the point -- peww! (putting hand behind head). (accent) It just completely alluded you. There was really no such thing as pure good and pure bad. It was only decisions to be made, and it was paths that people took. And I really enjoyed the complexity of that because that’s what real life is like. I especially liked the conversation and conflict between <persName>Okoye</persName> and <persName>Nakia</persName>. And <persName>Nakia’s</persName> like “yo I can’t -- <persName>Killmonger</persName> is king -- this cannot -- that’s not gon’ work for me. Let’s ride!”. And <persName>Okoye</persName> is like (accent) “Please! Though my heart is with you, I can not go”. And she’s like “I’m not a spy -- I’m not a spy that just can come and go as she pleases. My loyalty is to that throne!”. That’s probably my favorite monologue because it shows this dichotomy of tradition versus modernity. Responsibility and duty. And kinfolk versus skinfolk. The second time I watched Black Panther I was in <country>Nigeria</country>. And when <persName>M’baku</persName> (accent) opened his mouth to speak, the audience was like eh heh! Eh heh! And in the movie I loved how they used this brolic, traditional um you know probably the other tribes thought the <orgName>Jabari tribe</orgName> was backward, you know, a backward tribe struck in their ways. I loved how they used this brolic man as comedic relief. I never saw that coming and when he was funny. I was like, oh this is great! (accent) Are you done! Ok, so these accents. <persName>Zuri</persName> aka <persName>Forest Whitaker</persName> was giving me <country>South Africa</country>, <country>Malawi</country>. I really enjoyed <persName>Shuri’s</persName> accent. It was kind of familiar. It was “pewwn”, you know? The <orgName>Jabari</orgName> Was like <placeName>West African</placeName> so it was very (accent) “are you done?!” It was just very hard, and <persName>Shuri</persName> was very like, (accent) “My brother. Congrats to my brother. Don’t scare me like that colonizer.” That’s how we talk over on our side, you know what I’m saying? <persName>T’Challa</persName>, there was a certain way he would say vibranium that sounded Jamaican. Everything else was fine. But when he was like (Jamaican accent) “vibranium” I was like whoa whoa whoa. I was just happy that everybody wasn't Nigerian.</p>
+        <p>I identify more with <persName>Killmonger’s</persName> father, <persName>’Jobu</persName>. And yes. He’s technically a prince, but can you imagine being called a traitor and saying you betrayed your country because you're doing what you believe is helping your people, you know what I'm saying, your skinfolk. And your kinfolk say, “Ah-ah, ah-ah we not about all that!”. Can you imagine being called a traitor? I’m not collecting kills -- peww peww peww -- that’s not what I’m about. You know, I do stay with that thang on me though. But really what I'm trying to do is steal a little vibranium you know what I'm saying, disperse it to my people so that we can (accent) rise together.</p>
+        <p>I wish all of us, all Black people, had their sense of home, like, original home. I don't want anybody to make it to <placeName>Wakanda</placeName> and then choose to die. And me myself personally -- this is a hot take, it's spicy -- I think that the movie kind of sent the message that ultimately we have irreconcilable differences and the concept of a unified Global Black population is an impossibility and y'all should just be happy with a fancy YMCA in the hood. But what do I know -- I'm paranoid. I honestly don't know what I would have done in the end as <persName>Killmonger</persName>. Part of me watching the movie was like “oh my gosh you are so stubborn.”  But that's rude, right?  That's not a very complex assessment of his life and the history of his people. Most of the time I was like “yeah!” You know, that neck vein. “Yeah! What y’all know about the Atlantic? You know nothing about what happened in the Atlantic. Y'all was just chilling here with y'alls emollient atmosphere!”</p>
+        <p> I thoroughly enjoyed the movie. I think it'll open people up to the idea of Cosplay for the first time which I think is dope. It gives children access to another universe. When I think of little girls running around on the playground with sticks. “Ahhh!”  When I think about that -- oooh!  when I think about little kids using blankets as shields, as vibranium forcefields -- (yelps). <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">I think Black Panther has the ability to shift people's frame of reference for the continent. I truly believe that there's gonna be some kid like me in class during show and tell talking bout “this is my fabric. Um, my parents are from <country>Kenya</country>. It's a country in Africa and kids are going to be like “Oh like <placeName>Wakanda</placeName>?”</supplied> And you might think that sounds ignorant but to me that's cool! Imma get it on DVD. I do not have a device that can play the DVD but Imma get it. It's going to be a family heirloom.</p>
+      </body>
+  </text>
+</TEI>

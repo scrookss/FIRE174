@@ -6,101 +6,266 @@
       <fileDesc>
          <titleStmt>
             <title type="main">Black Representation in Black Panther</title>
-            <title type="sub">Digital Edition 2</title>
+            <title type="sub">Digital Edition</title>
             <author>
-<persName xml:id="SIC">Sophia Isabella Crooks</persName>
-<persName xml:id="KLG">Kayla LeRose Graham</persName>
-<orgName xml:id="AADHum">African American History, Culture, an Digital Humanities (AADHum)</orgName>
-            </author>
+<persName xml:id="JLU">
+  <forename>Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+<orgName xml:id="AADHum">African American History, Culture, an Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+</author>
             <respStmt>
-              <resp>TEI template provided by</resp>
-              <persName>Jessica Lu</persName>
+              <resp>Encoded by</resp>
+              <persName ref="#SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName ref="#KG">
+                <forename>Kayla</forename>
+                <surname> Graham</surname>
+                </persName>
             </respStmt>
             <respStmt>
-<resp>Encoded by</resp>
-<persName ref="SIC">Sophia Crooks</persName>
-<persName ref="KLG">Kayla Graham</persName>
+<resp>Original text transcribed by</resp>
+<persName ref="#SC">
+<forename>Sophia</forename>
+<surname>Crooks</surname>
+</persName>
+<persName ref="#KG">
+<forename>Kayla</forename>
+<surname>Graham</surname>
+</persName>
             </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+             <persName xml:id="RAFF">
+               <forename>Raffaele</forename>
+               <surname>Viglianti</surname>
+             </persName>
+             <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+           </respStmt>
+                 <funder>
+                   <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+                   <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+               </funder>
          </titleStmt>
+         <editionStmt>
+<edition n="1">First Edition</edition>
+         </editionStmt>
+         <extent>
+           <measure unit="paragraphs" quantity="10">The entire article of 10 paragraphs was encoded</measure>
+           </extent>
          <publicationStmt>
            <publisher>
-        <orgName ref="AADHum">African American History, Culture, an Digital Humanities (AADHum)</orgName>
+        <orgName ref="#AADHum">African American History, Culture, an Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
            </publisher>
 <pubPlace>
   <settlement>College Park</settlement>
-  <region>Maryland</region>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United Steas of America (<abbr>USA</abbr>)</country>
           </pubPlace>
           <date when="2018-05-02">May 2, 2018</date>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
          </publicationStmt>
+         <seriesStmt>
+  <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re)Making of Black Freedom Online</title>
+  <title type="sub">Black Panther</title>
+  <respStmt>
+    <resp>Edited by</resp>
+    <persName ref="#JLU">
+      <forename>Jessica</forename>
+      <surname>Lu</surname>
+    </persName>
+  </respStmt>
+  <respStmt>
+    <resp>Texts identified and assembled by</resp>
+    <persName ref="#SC">
+      <forename>Sophia</forename>
+      <surname>Crooks</surname>
+    </persName>
+    <persName ref="#KG">
+<forename>Kayla</forename>
+<surname>Graham</surname>
+    </persName>
+   </respStmt>
+ </seriesStmt>
          <sourceDesc>
+<listBibl>
             <bibl>
 <title type="main">Black Panther let me see myself as a superhero for the first time</title>
 <title type="sub">Marvel has finally used its power for the good of representation</title>
-<publisher>
-<orgName>Vox Media</orgName>
-</publisher>
 <author>
-  <persName xml:id="AF">Allegra Frank</persName>
+  <persName xml:id="AF">
+    <forename>Allegra</forename>
+    <surname> Frank</surname>
+    </persName>
 </author>
+<publisher>
+<orgName xml:id="VM">Vox Media</orgName>
+</publisher>
 <pubPlace ref="https://www.polygon.com/2018/2/26/17030036/black-panther-representation-in-hollywood-opinion">
-<settlement>New York City</settlement>
+<settlement>New York</settlement>
 <region>New York</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
 <settlement>Washington D.C.</settlement><!-- There are two headquater locations for this publisher. That is why we decided to list two settlement tags and one region tag. -->
+<country>United States of America (<abbr>USA</abbr>)</country>
 </pubPlace>
 <date when="2018-02-26">February 26, 2018</date>
             </bibl>
+            <bibl xml:id="JLUDISS">
+              <title type="main">Reckoning with Freedom</title>
+              <title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+              <author>
+                <persName ref="#JLU">
+                  <forename>Jessica</forename>
+                  <surname>Lu</surname>
+                  </persName>
+                </author>
+                <publisher>
+                  <orgName xml:id="UMD">University of Maryland</orgName>
+                </publisher>
+                <pubPlace>
+                  <settlement>College Park</settlement>
+                  <region>Maryland (<abbr>MD</abbr>)</region>
+                  <country>United States of America (<abbr>USA</abbr>)</country>
+                </pubPlace>
+                <date when="2018-06-28">28 June 2018</date>
+              </bibl>
+              <bibl>
+                <interpGrp resp="#LUDISS" type="freedom-ideas">
+                  <desc>Ideational analysis of freedom.</desc>
+                  <interp xml:id="STRAND1">Strand 1</interp>
+                  <interp xml:id="STRAND2">Strand 2</interp>
+                  <interp xml:id="STRAND3">Strand 3</interp>
+                  <interp xml:id="STRAND4">Strand 4</interp>
+                  <interp xml:id="STRAND5">Strand 5</interp>
+                </interpGrp>
+              </bibl>
+            </listBibl>
+            <biblStruct type="article">
+              <analytic>
+          <author>
+          <persName xml:id="JRH">
+          <forename>Jesse</forename>
+          <surname>Rhines</surname>
+          </persName>
+          </author>
+          <title>Black Film/Black Future</title>
+            </analytic>
+            <monogr>
+          <title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+          <imprint>
+          <publisher>The Black Scholar</publisher>
+          <pubPlace>
+          <settlement>San Francisco</settlement>
+          <region>California (<abbr>CA</abbr>)</region>
+          <country>United States of America (<abbr>USA</abbr>)</country>
+          </pubPlace>
+          <date when="2015-04-14">April 14,2015</date>
+          </imprint>
+            </monogr>
+            <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+          </biblStruct>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-<projectDesc>
-<p>Originally prepared for the purpose of amplifying the voice of this author and her opinions on the film, Black Panther.</p>
-<p>This article was encoded because of the particular language that the author uses to describe a variety of different aspects of the film. She uses this language to discuss Black represenation and Black hairstyles. She also uses this particular language to describe how the characters celebrate their own blackness. </p>
-</projectDesc>
-<samplingDecl>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all hyphenation between words in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+         </hyphenation>
+         <normalization method="silent">
+           <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+       </normalization>
+          <normalization>
+        <p>There were a large number of advertisements present throughout this article that we decided to omit. This is due to the fact that these advertisments have nothing to do with the text and take away from the importance of a digital text that describes the black representation in Black Panther.</p>
+        <p>Hyperlinks to other sources that the author included have been retained. They are encoded using <gi>addition</gi> with the the link to the source that the author was citing in her piece.</p>
+      </normalization>
+      <normalization method="silent">
+<p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+      </normalization>
+    <p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+        </editorialDecl>
+        <samplingDecl>
+<p>All 10 of the paragraphs were encoded because we believe they were important in describing the accurate Black representation in Black Panther</p>
 <p>The three pictures that the author of this piece decided to input have been retained. We believe that these pictures are important to the author in that they elicit different emotions (admiration, satisfation (with representation), proudness(of blackness)) that she expreesses through her use of language throughout the text. </p>
-</samplingDecl>
-<editorialDecl>
-  <normalization>
-<p>There were a large number of advertisements present throughout this article that we decided to omit. This is due to the fact that these advertisments have nothing to do with the text and take away from the importance of a digital text that describes the black representation in Black Panther.</p>
-<p>Hyperlinks to other sources that the author included have been retained. They are encoded using an addition TEI tag with the the link to the source that the author was citing in her piece.</p>
-  </normalization>
-</editorialDecl>
+        </samplingDecl>
+<projectDesc>
+ <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduatestudents at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+</projectDesc>
       </encodingDesc>
+      <profileDesc>
+           <langUsage>
+           <language ident="us-en">Standard American English</language>
+         </langUsage>
+         <particDesc>
+           <listPerson>
+             <person>
+               <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+                 <forename>Ryan</forename>
+                 <surname>Coogler</surname>
+               </persName>
+               <idno type="LCAF">no2014012055</idno>
+               <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people which is why he directed the film in the way that he did. He is partly responsible for the large amount of Black people taking to twitter and other platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying. </note>
+               </person>
+               <person>
+<persName xml:id="LUN" ref="http://id.loc.gov/authorities/names/no2009107748">
+<forename>Lupita</forename>
+<surname>Nyong'o</surname>
+</persName>
+<idno type="LCAF">no2009107748</idno>
+<note>Lupita Nyong'o is an actress and model. She starred in Black Panther as Nakia in Black Panther. Herself along with Letita Wright, Angela Basset, and Danai Gurira portrayed strong, intellgent, and independent Black women in this film. Lupita is important for this project because she was important for a alot of Black women who had been waiting for this type of representation in film. Many Black women took to twitter to describe her character and how it impacted them.</note>
+               </person>
+               </listPerson>
+               <personGrp>
+               <persName xml:id="BLK">Black and African American people</persName>
+               <note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "we" "us" throughoout the article to refer to the Black community. This group is important to amplify considering Black people's ideas and beliefs are important to our project. </note>
+               </personGrp>
+           </particDesc>
+      </profileDesc>
+      <revisionDesc>
+<listChange>
+<change>The B in Black was capitalized throughout the text to amplify Black people, made on
+<date when="2018-11-09">November 9, 2018</date>.
+</change>
+</listChange>
+      </revisionDesc>
   </teiHeader>
 <text>
       <body>
-<figure><graphic url="https://cdn.vox-cdn.com/thumbor/bk4DRQdjaABp8S4m0ZPvqYf_yns=/0x0:5784x3855/920x613/filters:focal(2430x1466:3354x2390):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58824809/BlackPanther596d2f0c153d1.0.jpg"></graphic><figDesc>This photo shows Lupita Nyong'o's character, Nakia, and Chadwick Boseman's character, T'Challa, walking down a flight of stairs during a scene in the film. They both stand out from the rest of the people in this photo because of their futuristic African-inspired clothing.</figDesc></figure>
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/bk4DRQdjaABp8S4m0ZPvqYf_yns=/0x0:5784x3855/920x613/filters:focal(2430x1466:3354x2390):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58824809/BlackPanther596d2f0c153d1.0.jpg"></graphic><figDesc>This photo shows Lupita Nyong'o's character, Nakia, and Chadwick Boseman's character, T'Challa, walking down a flight of stairs during a scene in the film. They both stand out from the rest of the people in this photo because of their futuristic African inspired clothing.</figDesc></figure>
 <p>
-  Calling Black Panther one of the most important films I’ve ever seen definitely sounds overdramatic. But this isn’t hyperbolic, and I’m not alone in saying this. For what feels like the first time, an <seg type="black-representation">entire group of people that look like me</seg> — <seg type="black-representation">like many of us</seg> — get to be the heroes in a big-budget, <add source="https://www.polygon.com/2018/2/6/16974898/black-panther-review-marvel-movie">massively successful</add> film. And there’s no hiding who they are or where they’re from in Black Panther; <seg type="celebration-of-blackness">they’re <trait type="physical"><label>ethnicity</label><desc>African</desc></trait>, and they’re proud of it.</seg>
-</p> <!-- The celebration of blackness analysis tag was used to identify the language that the author uses to express her appreciation for how proud the characters of Black Panther were of their culture, background, and blackness.   -->
+  Calling Black Panther one of the most important films I’ve ever seen definitely sounds overdramatic. But this isn’t hyperbolic, and I’m not alone in saying this. For what feels like the first time, an <seg type="Black-representation">entire group of people that look like me</seg> — <seg type="Black-representation">like many of us<supplied>us refers to the Black community</supplied></seg> — get to be the heroes in a <choice><orig>big-budget</orig><reg>big budget</reg></choice>, <add source="https://www.polygon.com/2018/2/6/16974898/black-panther-review-marvel-movie">massively successful</add> film. And there’s no hiding who they are or where they’re from in Black Panther; <seg type="celebration-of-Blackness">they’re African, and they’re proud of it.</seg>
+</p> <!-- The celebration of Blackness analysis tag was used to identify the language that the author uses to express her appreciation for how proud the characters of Black Panther were of their culture, background, and Blackness.   -->
 <p>
-  Superhero movies are, by design, wish fulfillment: We want their powers! We want their invincibility! We want their fame! We want their abs! (We wouldn’t dare wearing spandex otherwise.) I obviously wish I had a body like <persName>Black Widow’s</persName> or the bank account of <persName>Tony Stark</persName>, and I can relate to <persName>Peter Parker’s</persName> anxiety. Yet as a woman of color, <seg type="lack-of-representaton">I’ve struggled to find myself</seg> in any <orgName>Marvel</orgName> movie to date, even while dutifully paying up to see them every few months like an average member of society.
-</p> <!-- The lack of representation analysis tag has to do with the language we identified as representation and lack there of. The author uses this language to describe the lack of representation that she felt as a fan of superhero movies.--> <!-- The word "we" in this instance is not being used to describe the black community, more so moviegoers or fans of superhero movies. This is why the supplied tag is not used here. -->
+  Superhero movies are, by design, wish fulfillment: We want their powers! We want their invincibility! We want their fame! We want their abs! (We wouldn’t dare wearing spandex otherwise.) I obviously wish I had a body like <persName>Black Widow’s</persName> or the bank account of <persName>Tony Stark</persName>, and I can relate to <persName>Peter Parker’s</persName> anxiety.<supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203"> Yet as a woman of color, <seg type="lack-of-representaton">I’ve struggled to find myself</seg> in any <orgName>Marvel</orgName> movie to date, even while dutifully paying up to see them every few months like an average member of society</supplied>.
+</p> <!-- The lack of representation analysis tag has to do with the language we identified as representation and lack there of. The author uses this language to describe the lack of representation that she felt as a fan of superhero movies.--> <!-- The word "we" in this instance is not being used to describe the Black community, more so moviegoers or fans of superhero movies. This is why the supplied tag is not used here. -->
 <p>
-  We've<supplied>we refers to the Black community</supplied> seen <orgName>Marvel Comics</orgName> be <seg type="black-representation">better about letting minority characters suit up</seg>; even <persName>Iron Man</persName> became a teenage <trait type="physical"><label>race</label><desc>African-American</desc></trait> girl recently. But as <orgName>Vulture</orgName> noted back in 2013, ahead of the premiere of Thor: The Dark World, there continues to be a divide between the comic book and film sides of the company. <seg type="lack-of-representation">What few people of color there are tend to be villains or supporting cast members, not the heroes on the poster</seg>. That lack of representation is meaningful, even if it doesn’t seem to affect box office numbers. (<seg type="lack-of-representation">The Avengers, with a total of one <trait type="physical"><label>race</label><desc>black</desc></trait> person and one woman in the main cast, remains one of the highest-grossing films of all time</seg>, after all.)
-</p> <!-- The black representation analysis tag identifies the language that the author uses to describe her satisfaction with the amount of black represenation in the film. She expresses this satisfaction in a variety of ways, yet it all used to describe the representation of black characters, with roles that black characters usually do not play.  --> <!-- The supplied tag was used to explain the author's use of the word "we" when talking about the black community. -->
-<figure><graphic url="https://cdn.vox-cdn.com/thumbor/ZFjm-egEU6UIBezN5p9s00A4rwg=/0x0:5350x3567/720x0/filters:focal(0x0:5350x3567):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10165683/BlackPanther5a544af14a477.jpg"></graphic><figDesc>This photo is of the character, Shuri, working in her labratory in the film. We'd like to note the author's caption for the picture "My girl Shuri, a teen tech genius".</figDesc></figure> <!-- We beleive that this picture was important to include considering Shuri's character has had an impact on the author and many others. It is rare to see a strong, intellegent, and independent black character that is interesed in technology. That is why the black community has used a variety of platforms to express their astonishment of the representation in this film.  -->
+  We've<supplied>we refers to the Black community</supplied> seen <orgName>Marvel Comics</orgName> be <seg type="Black-representation">better about letting minority characters suit up</seg>; even <persName>Iron Man</persName> became a teenage <choice><orig>African-American</orig><reg>African American</reg></choice> girl recently. But as <orgName>Vulture</orgName> noted back in 2013, ahead of the premiere of Thor: The Dark World, there continues to be a divide between the comic book and film sides of the company. <seg type="lack-of-representation">What few people of color there are tend to be villains or supporting cast members, not the heroes on the poster</seg>. That lack of representation is meaningful, even if it doesn’t seem to affect box office numbers. (<seg type="lack-of-representation">The Avengers, with a total of one <choice><orig>black</orig><reg>Black</reg></choice> person and one woman in the main cast, remains one of the <choice><orig>highest-grossing</orig><reg>highest grossing</reg></choice> films of all time</seg>, after all.)
+</p> <!-- The Black representation analysis tag identifies the language that the author uses to describe her satisfaction with the amount of Black represenation in the film. She expresses this satisfaction in a variety of ways, yet it all used to describe the representation of Black characters, with roles that Black characters usually do not play.  --> <!-- The supplied tag was used to explain the author's use of the word "we" when talking about the Black community. -->
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/ZFjm-egEU6UIBezN5p9s00A4rwg=/0x0:5350x3567/720x0/filters:focal(0x0:5350x3567):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10165683/BlackPanther5a544af14a477.jpg"></graphic><figDesc>This photo is of the character, Shuri, working in her labratory in the film. We'd like to note the author's caption for the picture "My girl Shuri, a teen tech genius".</figDesc></figure> <!-- We beleive that this picture was important to include considering Shuri's character has had an impact on the author and many others. It is rare to see a strong, intellegent, and independent Black character that is interesed in technology. That is why the Black community has used a variety of platforms to express their astonishment of the representation in this film.  -->
 <p>
-  “<orgName>Marvel</orgName> currently has the eyeballs of hundreds of millions of moviegoers across the globe — something that’s never been true before for any comics company. It has a massive platform to tell all those viewers across the planet,” <add source="http://www.vulture.com/2013/10/marvel-diversity-problem-avengers-shield-comics.html">wrote <orgName>Vulture</orgName></add>. “<seg type="black-representation">‘Anyone can be a hero, regardless of race</seg>, gender, sexual orientation, or anything else.’ It’s not as if <orgName>Marvel</orgName> hasn’t tried and succeeded wildly in getting that very message across in the past.”
+  “<orgName>Marvel</orgName> currently has the eyeballs of hundreds of millions of moviegoers across the globe — something that’s never been true before for any comics company. It has a massive platform to tell all those viewers across the planet,” <add source="http://www.vulture.com/2013/10/marvel-diversity-problem-avengers-shield-comics.html">wrote <orgName>Vulture</orgName></add>. “<seg type="Black-representation">‘Anyone can be a hero, regardless of race</seg>, gender, sexual orientation, or anything else.’ It’s not as if <orgName>Marvel</orgName> hasn’t tried and succeeded wildly in getting that very message across in the past.”
 </p>
 <p>
-  <orgName>The Marvel Cinematic Universe</orgName> has finally made good on this potential. <seg type="black-representation">I could look at the ad for Black Panther and actually choose between multiple people I wanted to be</seg>: <persName>King T’Challa</persName>, calm and cool, towering above a group of women and men with varying skin tones and <seg type="black-hair">natural hair</seg>. There’s <persName>Nakia</persName> and <persName>Okoye</persName>, both of <seg type="black-representation">darker skin than most <trait type="physical"><label>race</label><desc>black</desc></trait> women I see on screen</seg>, both independent and strong; and <persName>Shuri</persName>, a certifiable badass with <seg type="black-hair">amazing hair</seg> and smarts and — I could go on. Even <persName>Killmonger</persName>, <seg type="black-hair">his hair in dreadlocks</seg>, has a style I wanted to cop.
-</p> <!-- The black hair analysis tag was used considering the attention that the author and many others using digital platforms paid to the natural black hairstyles that the characters wore. People took to social media to admire the black hairstyles of the characters of Black Panther. It was quite admirable considering the lack of natural black hairstyles worn by black characters (usually straight, natural curl pattern is not worn). -->
+  <orgName>The Marvel Cinematic Universe</orgName> has finally made good on this potential. <seg type="Black-representation">I could look at the ad for Black Panther and actually choose between multiple people I wanted to be</seg>: <persName>King T’Challa</persName>, calm and cool, towering above a group of women and men with varying skin tones and <seg type="Black-hair">natural hair</seg>. There’s <persName>Nakia</persName> and <persName>Okoye</persName>, both of <seg type="Black-representation">darker skin than most <choice><orig>black</orig><reg>Black</reg></choice> women I see on screen</seg>, both independent and strong; and <persName>Shuri</persName>, a certifiable badass with <seg type="Black-hair">amazing hair</seg> and smarts and — I could go on. Even <persName>Killmonger</persName>, <seg type="Black-hair">his hair in dreadlocks</seg>, has a style I wanted to cop.
+</p> <!-- The Black hair analysis tag was used considering the attention that the author and many others using digital platforms paid to the natural Black hairstyles that the characters wore. People took to social media to admire the Black hairstyles of the characters of Black Panther. It was quite admirable considering the lack of natural Black hairstyles worn by Black characters (usually straight, natural curl pattern is not worn). -->
 <p>
-  For the first time, <seg type="black-representation">I watched a superhero movie without feeling so personally detached from it</seg>. I now want more than to look like <persName xml:id="LUN">Lupita N’yongo’s</persName> <persName>Nakia</persName>. I want to be her: a strong polyglot who laughs at the idea of settling down with <persName>T’Challa</persName>. Becoming <persName>Nakia</persName> (or some snarky, nap-prone, Allegra-style version of her) seems a whole lot more plausible to me than becoming <persName>Black Widow</persName> or, heck, <orgName>DC’s</orgName> <persName>Wonder Woman</persName>. In her I see the <trait type="place"><label>country</label><desc>African</desc></trait> <seg type="celebration-of-blackness">cultural tenets I admire in my female relatives: fierce loyalty, a lack of physical self-consciousness and tenacity.</seg> It’s not that those other <trait type="physical"><label>race</label><desc>white or non-black</desc></trait> women lack those; it’s that with <persName>Nakia</persName>, <seg type="black-representation">there’s an intimate specificity I’ve never gotten to see before.</seg>
+  <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">For the first time, <seg type="Black-representation">I watched a superhero movie without feeling so personally detached from it</seg></supplied> .I now want more than to look like <persName ref="#LUN">Lupita <choice><orig>N’yongo’s</orig><corr>Nyong'o's</corr></choice></persName> <persName>Nakia</persName>. I want to be her: a strong polyglot who laughs at the idea of settling down with <persName>T’Challa</persName>. Becoming <persName>Nakia</persName> (or some snarky, nap-prone, <choice><orig>Allegra-style</orig><reg>Allegra style</reg></choice> version of her) seems a whole lot more plausible to me than becoming <persName>Black Widow</persName> or, heck, <orgName>DC’s</orgName> <persName>Wonder Woman</persName>. In her I see the African <seg type="celebration-of-Blackness">cultural tenets I admire in my female relatives: fierce loyalty, a lack of physical <choice><orig>self-consciousness</orig><reg>self consciousness</reg></choice> and tenacity.</seg> It’s not that those other white or <choice><orig>non-Black</orig><reg>non Black</reg></choice> women lack those; it’s that with <persName>Nakia</persName>, <seg type="Black-representation">there’s an intimate specificity I’ve never gotten to see before.</seg>
 </p>
-<figure><graphic url="https://cdn.vox-cdn.com/thumbor/_osZ4DgWYeLjFlN6O7yIlEmSNsg=/0x0:6000x4000/720x0/filters:focal(0x0:6000x4000):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9546373/BlackPanther596d2f0f45777.jpg"></graphic><figDesc>This photo is of three characters: Nakia, T'Challa, and Okoye. The stand together looking over a balcony in this scene. We would also like to note the author's caption for this picture "Look at the hair on this crew".</figDesc></figure> <!-- We believe that encoding these three photos was important considering how the author commented on them through the captions. She adknowledged the amount of black representation and black hair styles through these captions like many others have using many different digital platforms.   -->
+<figure><graphic url="https://cdn.vox-cdn.com/thumbor/_osZ4DgWYeLjFlN6O7yIlEmSNsg=/0x0:6000x4000/720x0/filters:focal(0x0:6000x4000):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9546373/BlackPanther596d2f0f45777.jpg"></graphic><figDesc>This photo is of three characters: Nakia, T'Challa, and Okoye. The stand together looking over a balcony in this scene. We would also like to note the author's caption for this picture "Look at the hair on this crew".</figDesc></figure> <!-- We believe that encoding these three photos was important considering how the author commented on them through the captions. She adknowledged the amount of Black representation and Black hair styles through these captions like many others have using many different digital platforms.   -->
 <p>
-  That kind of representation is meaningful. It may have taken <orgName>Marvel</orgName> more than four years to embrace its power to shirk Hollywood convention, but Black Panther is <add source="https://www.polygon.com/2018/2/19/17027296/black-panther-box-office-record">literally paying out in dividends.</add> People of color are galvanizing around this film, from <add source="https://learningenglish.voanews.com/a/4264695.html">superhero-loving kids</add> to <seg type="black-representation">older fans who’ve <add source="https://www.colorlines.com/articles/representation-matters-long-movie-black-panther-validated-my-black-self">waited a long time</add> for a movie like this.</seg> It’s now clearer than ever that <seg type="black-representation"> a film starring a majority-black cast</seg> (and set in an empowered African nation, no less) doesn’t have to be a box office disappointment or a niche success. The right movie can become a cultural phenomenon.
-</p>
-<p>
-  <roleName>Director</roleName> <persName xml:id="RC">Ryan Coogler’s</persName> fellow <trait type="physical"><label>race</label><desc>black</desc></trait> filmmakers are also heralding him as a history-bound prodigal son. <name role="director" type="person" ref="RC">Coogler</name> managed to <seg type="black-representation">translate his inherently <trait type="physical"><label>race</label><desc>black</desc></trait> stories into a big-picture world where they rarely get to exist</seg>. It’s encouraging to viewers, and it’s inspiring to his forebears.
+  That kind of representation is meaningful. It may have taken <orgName>Marvel</orgName> more than four years to embrace its power to shirk <placeName>Hollywood</placeName> convention, but Black Panther is <add source="https://www.polygon.com/2018/2/19/17027296/black-panther-box-office-record">literally paying out in dividends.</add> People of color are galvanizing around this film, from <add source="https://learningenglish.voanews.com/a/4264695.html"><choice><orig>superhero-loving</orig><reg>superhero loving</reg></choice> kids</add> to <seg type="Black-representation">older fans who’ve <add source="https://www.colorlines.com/articles/representation-matters-long-movie-black-panther-validated-my-black-self">waited a long time</add> for a movie like this.</seg> It’s now clearer than ever that <seg type="Black-representation"> a film starring a <choice><orig>majority-black</orig><reg>majority Black</reg></choice> cast</seg> (and set in an empowered African nation, no less) doesn’t have to be a box office disappointment or a niche success. The right movie can become a cultural phenomenon.
 </p>
 <p>
-  “We <supplied>we refers to the Black community</supplied> all have our own version of [a <trait type="physical"><label>race</label><desc>black</desc></trait> superhero movie], I’m sure,” said <persName xml:id="LD">Lee Daniels</persName>, one of just four African-American men to be nominated for a Best Director Oscar, in <add source="https://www.hollywoodreporter.com/features/race-barriers-battling-nerves-a-candid-conversation-oscars-4-african-american-directing-nominees-90-1087644">a recent <orgName>Hollywood Reporter</orgName> roundtable</add> about Hollywood’s slow embrace of <trait type="physical"><label>race</label><desc>black</desc></trait> filmmaking. “And he has paved the way now.”
+  <roleName>Director</roleName> <persName ref="#RC">Ryan Coogler’s</persName> fellow <choice><orig>black</orig><reg>Black</reg></choice>filmmakers are also heralding him as a <choice><orig>history-bound</orig><reg>history bound</reg></choice> prodigal son. <persName ref="#RC">Coogler</persName> managed to <seg type="Black-representation">translate his inherently <choice><orig>black</orig><reg>Black</reg></choice> stories into a <choice><orig>big-picture</orig><reg>big picture</reg></choice> world where they rarely get to exist</seg>. It’s encouraging to viewers, and it’s inspiring to his forebears.
 </p>
 <p>
-  We can’t ignore the impact Black Panther is having and will continue to have. I know that the viewers still chanting “<placeName>Wakanda</placeName> forever!” won’t stop any time soon. Here’s hoping that Hollywood won’t, either.
+  “We <supplied>we refers to the Black community</supplied> all have our own version of [a <choice><orig>black</orig><reg>Black</reg></choice> superhero movie], I’m sure,” said <persName>Lee Daniels</persName>, one of just four <choice><orig>African-American</orig><reg>African American</reg></choice> men to be nominated for a Best Director Oscar, in <add source="https://www.hollywoodreporter.com/features/race-barriers-battling-nerves-a-candid-conversation-oscars-4-african-american-directing-nominees-90-1087644">a recent <orgName>Hollywood Reporter</orgName> roundtable</add> about <placeName>Hollywood’s</placeName> slow embrace of <choice><orig>black</orig><reg>Black</reg></choice> filmmaking. “And he has paved the way now.”
+</p>
+<p>
+  We can’t ignore the impact Black Panther is having and will continue to have. I know that the viewers still chanting “<placeName>Wakanda</placeName> forever!” won’t stop any time soon. Here’s hoping that <placeName>Hollywood</placeName> won’t, either.
 </p>
       </body>
   </text>

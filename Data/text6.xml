@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Black Culture in Black Panther</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="paragraphs" quantity="19">19 paragraphs of the article were encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-11-12">November 12, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">Black Panther is a gorgeous, groundbreaking celebration of Black culture</title>
+<title type="sub">The newest Marvel movie is about more than a superhero’s journey. It’s about Black culture’s journey.</title>
+<author xml:id="TJ">
+<forename>Tre</forename>
+<surname>Johnson</surname>
+</author>
+<publisher>
+<orgName xml:id="VM">Vox Media</orgName>
+</publisher>
+<pubPlace>
+<settlement>New York</settlement>
+<region>New York</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+<settlement>Washington D.C.</settlement><!-- There are two headquater locations for this publisher. That is why we decided to list two settlement tags and one region tag. -->
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-02-23">February 23, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="MDA">
+  <forename>Marlene D</forename>
+  <surname>Allen</surname>
+  </persName>
+  </author>
+  <title type="main">If You Can See It, You Can Be It</title>
+  <title type="sub">Black Panther’s Black Woman Magic</title>
+  </analytic>
+  <monogr>
+  <title level="j">Africology: The Journal of Pan African Studies (<abbr>JPAS</abbr>)</title>
+  <imprint>
+  <publisher></publisher>
+  <pubPlace>
+  <settlement>Santa Clarita</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date>August 2018</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Marlene Allen's piece works to connect CaShawn Thompson's 2013 phrase "Black girl magic" to the Black Panther film. She describes the Black excellence of the women in the film as "Black women magic". She goes into great detail when describing each of the Black actress's role and explains why they emulate "Black women magic". Allen's emphasis on amplififying the importance of these Black women characters in the film is vital to our project considering there has been a lot of attention paid to amplifying the voices of Black women and men who have contributed to the Black Panther conversation.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all hyphenation between words in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+         </hyphenation>
+         <normalization method="silent">
+           <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+       </normalization>
+         <normalization>
+         <p>The B in Black and Blackness was capitalized throughout the text to amplify Black people.</p>
+         <p>There were a few advertisements present throughout this article that we decided to omit. A video in the middle of the article was also omitted. This is due to the fact that these advertisments as well as the video have nothing to do with the text and take away from the importance of the amplification Black culture and excellence.</p>
+         </normalization>
+<p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+<p>Hyperlinks to other sources that the author included have been retained. They are encoded using <gi>addition</gi> with the the link to the source that the author was citing in her piece.</p>
+          </editorialDecl>
+  <samplingDecl>
+  <p>The entire article of 19 paragrpahs was encoded because we believe the auhor, Tre Johnson, effectively described the celebration and representation of Black people in this film.</p>
+  <p>The 3 pictures of the various characters in the film were retained because we believed they provided context to the article and further amplified the Black characters of the film.</p>
+  <p>Advertisments as well as the video in the middle of the article was not encoded because we believe it took away from the amplification of the characters and Black culture/people.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+    <persName xml:id="CF">
+<forename>Camille</forename>
+<surname>Friend</surname>
+    </persName>
+    <note>Camille Friend plays an important part in the Black Panther movie as she oversaw majority of the hairstyles in the movie. She made sure that the hairstyles that the characters wore were natural or Afrocentric. She is also important to our digital project because she played apart in the postive response the film had on social media considering Black hairstyles were vastly represented.</note>
+</person>
+<person>
+  <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+    <forename>Ryan</forename>
+    <surname>Coogler</surname>
+  </persName>
+  <idno type="LCAF">no2014012055</idno>
+  <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people. This is why he directed the film the way that he did. He is partly responsible for the large amount of Black people taking to digital platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying.</note>
+</person>
+<person>
+<persName xml:id="RUC" ref="http://id.loc.gov/authorities/names/no92026494">
+<forename>Ruth</forename>
+<surname>Carter</surname>
+</persName>
+<idno type="LCAF">no92026494</idno>
+<note>Ruth Carter along with Hannah Beachler were costume designers who worked to create the Afrocentric costumes for the Black Panther film. Ruth as a Black woman costume designer was extremely important to the film because she did an amazing job at providing so much representation from multiple African tribes.</note>
+</person>
+<person>
+  <persName xml:id="BJ" ref="http://id.loc.gov/authorities/names/no2017022085">
+<forename>Barry</forename>
+<surname>Jenkins</surname>
+</persName>
+<idno type="LCAF">no2017022085</idno>
+<note>Barry Jenkins is a producer and screenwriter. He recently produced the film Moonlight. He alongside other Black filmmakers played an important role in this digital project because they released films that represented Black people in ways that are not common. This caused a lot of Black people to take to social media to talk about these films which we are interested in perserving.</note>
+</person>
+<person>
+<persName xml:id="JP" ref="http://id.loc.gov/authorities/names/no2013025104">
+<forename>Jordan</forename>
+<surname>Peele</surname>
+</persName>
+<idno type="LCAF">no2013025104</idno>
+<note>Jordan Peele is an actor, screenwriter, and producer. He recently produced the film, Get Out, which was a box office success to say the least. He is important to this digtial project because he along with other Black screenwriters and producers played a huge part in the vast amount of films released in 2018 that amplified Black people.</note>
+</person>
+<person>
+<persName xml:id="ADV" ref="http://id.loc.gov/authorities/names/no2011127416">
+  <forename>Ava</forename>
+  <surname>DuVernay</surname>
+  </persName>
+  <idno type="LCAF">no2011127416</idno>
+  <note>Ava DuVernay is a producer, director, and writer. She worked alongside Ryan Coogler as he directed Black Panther and she directed a Wrinkle in Time. She, like Coogler, was responsible for majority of the decisions that went into Black representation in the film. A Wrinkle in Time was another important film of 2018 in it featured quite a few sigficant Black characters played by Stormi Reid, Oprah Winfrey, Conrad Roberts, and David Oyelowo.</note>
+  </person>
+</listPerson>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>The B in Black was capitalized throughout the the transcription to amplify Black people, made on
+  <date when="2018-11-12">November 12, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <figure>
+<graphic url="https://cdn.vox-cdn.com/thumbor/2E5_bNdm8Ews0Zw3O6kbct3tv70=/0x0:915x610/920x613/filters:focal(377x20:523x166):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58796435/boseman.0.jpg">
+ </graphic>
+ <figDesc>This photo shows Chadwick Boseman as his character, Black Panther.</figDesc>
+        </figure>
+<p><orgName>Marvel’s</orgName> <add source="https://www.vox.com/culture/2018/2/23/17028826/black-panther-wakanda-culture-marvel">Black Panther</add> is a cultural phenomenon, a <add source="https://www.vox.com/culture/2018/2/20/17029156/black-panther-international-overseas-box-office-black-films-hidden-figures-proud-mary">historic box office success</add> that’s brought in <add source="https://www.vox.com/culture/2018/2/15/17008196/black-panther-review">rave reviews</add> and sparked conversation all over social media and traditional media alike. There are no signs of the excitement abating, either, <supplied source="http://journals.sagepub.com/doi/abs/10.1177/2056305116683205">as the conversation about the film has evolved from discussions about the importance of representation into something grander: a rather groundbreaking celebration of black culture.</supplied></p>
+<p>With an <choice><orig>all-star</orig><reg>all star</reg></choice> collection of majority <choice><orig>black</orig><reg>Black</reg></choice> talent both in front of and behind the camera, Black Panther, under the direction of <persName ref="#RC">Ryan Coogler</persName> (Fruitvale Station, Creed), is about more than the latest superhero’s journey; it’s also about <choice><orig>black</orig><reg>Black</reg></choice> culture’s journey, and it points toward a future where it could be the culture. It acknowledges and celebrates everything from traditional African society to <choice><orig>African-American</orig><reg>African American</reg></choice> political debates, from the power and beauty of <choice><orig>black</orig><reg>Black</reg></choice> women to the preservation of identity, all within the lush confines of the fictional African nation of <placeName>Wakanda</placeName>.</p>
+<p>All told, Black Panther’s greatest legacy may not be what it’s done for <orgName>Marvel</orgName>, <placeName>Hollywood</placeName>, or box office records, but what it’s done for the culture. In <placeName>Wakanda</placeName>, which offers much to marvel at for audiences of all backgrounds, <choice><orig>black</orig><reg>Black</reg></choice> viewers in particular have found a cultural oasis that feels like nothing we’ve seen before.</p>
+<p>Black Panther celebrates <choice><orig>black</orig><reg>Black</reg></choice> culture on several fronts</p>
+<p>Black Panther is in many ways a love letter to <choice><orig>black</orig><reg>Black</reg></choice> culture. <country>Africa</country> has traditionally been an unsophisticated bit player in American media, often portrayed as backward, savage, and chaotic in everything from news coverage to films. It’s a portrayal that has left little room for other interpretations, which is why Black Panther’s vision of <placeName>Wakanda</placeName> as a bustling metropolis of <choice><orig>vibranium-powered</orig><reg>vibranium powered</reg></choice> futuristic skyscrapers, racing trains, and soaring spaceships feels so refreshing.</p>
+<p><orgName>Marvel</orgName> movies often take place in grand, imaginative locales, like <persName>Thor’s</persName> Asgard or Guardians of the Galaxy’s <choice><orig>far-flung</orig><reg>far flung</reg></choice> planets. But nothing has been quite as audacious and poignant as <placeName>Wakanda</placeName>, a vision of <placeName>Africa</placeName> that feels indebted to both <persName>Jack Kirby</persName> and <persName>Octavia Butler</persName>, home to a thriving <choice><orig>black</orig><reg>Black</reg></choice> population that represents our collective ingenuity and beauty. As a testament to <choice><orig>black</orig><reg>Black</reg></choice> empowerment, Black Panther is an important artifact, but it’s also, quite simply, a big draw for <choice><orig>black</orig><reg>Black</reg></choice> moviegoers starved for this sort of vision.</p>
+<p>It’s not just <placeName>Wakanda’s</placeName> skyline that makes an impact, though; the film drew on a team of designers and stylists to showcase a very specific, beautiful <choice><orig>black</orig><reg>Black</reg></choice> aesthetic. In an <add source="https://www.nytimes.com/2018/02/14/style/black-panther-natural-hair.html">interview</add> with the <orgName>New York Times</orgName>, <persName ref="#CF">Camille Friend</persName>, who oversaw the various hair designs of what she calls “a totally Afrocentric, natural hair movie,” said the entire production was considered against a backdrop of a bigger <choice><orig>black</orig><reg>Black</reg></choice> cultural moment: “We’re in a moment when people are feeling empowered about being <choice><orig>black</orig><reg>Black</reg></choice>,” she says. “The hair helps communicate that.”</p>
+<figure>
+<graphic url="https://cdn.vox-cdn.com/thumbor/AOy8bvjkpTFyWos4pGXZx3WvD8g=/0x0:1500x1000/920x0/filters:focal(0x0:1500x1000):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10281041/black_panther_danai_gurira_lupita_nyongo.jpg"></graphic>
+<figDesc>This photo is of Danai Gurira as Okoye, Lupita Nyong'o as Nakia, and Florence Kasumba as Ayo in Black Panther.</figDesc>
+</figure>
+<p>Like the film’s hair, Black Panther’s costuming was an opportunity to infuse meaning and pride into the movie. As the film’s head costume designer, <persName ref="#RUC">Ruth Carter</persName>, shared with <add source="https://www.npr.org/2018/02/16/586513016/black-panther-costume-designer-draws-on-the-sacred-geometry-of-africa">NPR</add>, the costumes, like <placeName>Wakanda</placeName> itself, needed to evoke a place and people that had “never been colonized, one that looked toward the future but was based on a real past.”</p>
+<p><persName>Carter</persName> and her team drew on Kenyan, Namibian, and South African reference points to complete the film’s array of looks, reflecting not only the tribal diversity that exists within <placeName>Wakanda</placeName> but the diversity of <choice><orig>black</orig><reg>Black</reg></choice> culture and identity as well. The film is a crucial stamp of validation for <choice><orig>black</orig><reg>Black</reg></choice> people hungry for the opportunity to celebrate everything from Afrofuturism to the natural hair movement <add source="https://www.essence.com/hair/natural/black-student-natural-hair-asked-to-get-hair-done/">that’s often been derided</add> in mainstream spaces.</p>
+<p>The care and intricacy of the film’s styling carried a heavy price tag, with <orgName>Marvel</orgName> committing more money to Black Panther than its previous few films in order to achieve a visual splendor that’s as exciting to the culture as it is to the eye. The result is the sort of spectacle <choice><orig>black</orig><reg>Black</reg></choice> moviegoers rarely get to see in popular mainstream culture. That isn’t lost on <orgName>Marvel’s</orgName> <persName>Kevin Feige</persName>, who explained his reasoning behind the film’s budget to <add source="https://www.vulture.com/2018/02/why-marvel-spent-more-on-the-black-panther-budget.html"><orgName>Vulture</orgName></add>: “It’s a big story that deserves to be told in a big way, for all of the cultural and political reasons that people talk about.”</p>
+<p>These vague “cultural and political reasons” are at the heart of a movie phenomenon that’s inspired everything from Black <choice><orig>Panther-themed</orig><reg>Panther themed</reg></choice> watch parties to a <add source="https://www.vox.com/policy-and-politics/2018/2/21/17033644/black-panther-screenings-voter-registration-wakanda-the-vote">voter registration</add> initiative to a <add source="https://docs.google.com/document/d/19wRga_SppkMxLazphpLE4B9GGUtoufGHNSrSavEjXbs/mobilebasic">curriculum</add> that encourages educators to leverage the film to teach deeper histories about African culture, politics, and history. It’s also opened up dialogues and personal reflections about <choice><orig>black</orig><reg>Black</reg></choice> identity in America and abroad via <add source="https://twitter.com/hashtag/whatblackpanthermeanstome?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag">#WhatBlackPantherMeansToMe</add>, a powerful cross section of editorial and <choice><orig>real-time</orig><reg>real time</reg></choice> reflections on the film’s resonance with <choice><orig>black</orig><reg>Black</reg></choice> moviegoers.</p>
+<p>The film has also jumped into the current of <choice><orig>black</orig><reg>Black</reg></choice> political thought and action, prompting challenging think pieces about how <persName>T’Challa</persName> and <persName>Killmonger’s</persName> rift is representative of <add source="https://www.esquire.com/entertainment/movies/a18241993/black-panther-review-politics-killmonger/">familiar ideological debates</add> in the <choice><orig>black</orig><reg>Black</reg></choice> community, and what the film’s politics represent about the <add source="http://bostonreview.net/race/christopher-lebron-black-panther">state of <choice><orig>black</orig><reg>Black</reg></choice> America</add>. In addition to escapism and inspiration, Black Panther offers African Americans the opportunity to reexamine and reimagine their place in the world, both literally and figuratively. <placeName>Wakanda</placeName> has emerged as a vision of what’s possible, representing what true liberation could look like, but the power of that fantasy is directly linked to the harsh realities of <persName>Erik Killmonger’s</persName> experience growing up in Oakland, California, far away from that utopic vision.</p>
+<p>Black Panther is part of a wave of entertainment that’s expanding the scope of <choice><orig>black</orig><reg>Black</reg></choice> narratives</p>
+<p>The excitement around Black Panther doesn’t exist in a vacuum; the film is the latest in a string of <choice><orig>high-water-mark</orig><reg>high water mark</reg></choice> moments for a <choice><orig>black</orig><reg>Black</reg></choice> pop culture landscape that’s experiencing a renaissance. Recent years have seen a new level of <choice><orig>black</orig><reg>Black</reg></choice> art that’s intertwined sociopolitical commentary with <choice><orig>high-caliber</orig><reg>high caliber</reg></choice> artistry: from <persName>Beyoncé’s</persName> Lemonade and <persName>Kendrick Lamar’s</persName> DAMN to Atlanta and Queen Sugar, there’s been a renewed focus on telling stories that broaden and sharpen the range of <choice><orig>black</orig><reg>Black</reg></choice> narratives.</p>
+<p>This expansion is significant given <choice><orig>black</orig><reg>Black</reg></choice> audiences’ complex relationship with Hollywood, which has typically presented a narrow slice of the <choice><orig>African-American</orig><reg>African American</reg></choice> narrative. It’s an industry that has often seemed invested in <choice><orig>black</orig><reg>Black</reg></choice> Americans primarily as slaves (12 Years a Slave), victims of <choice><orig>inner-city</orig><reg>inner city</reg></choice> strife (Detroit), or symbols of comfort (The Help) and is fixated on stories about the <choice><orig>post-Reconstruction</orig><reg>post Reconstruction</reg></choice> and civil rights eras and biopics of famous <choice><orig>black</orig><reg>Black</reg></choice> people that only glimpse at race.</p>
+<p>For a long time, it’s felt like the only stories about the <choice><orig>African-American</orig><reg>African American</reg></choice> experience Hollywood was interested in telling were stories that were intertwined in some way with the white experience, making this shift toward stories that center <choice><orig>black</orig><reg>Black</reg></choice> narratives as <choice><orig>black</orig><reg>Black</reg></choice> narratives feel both welcome and long overdue.</p>
+<p>A similar shift has been afoot in Hollywood offscreen in recent years. As #OscarsSoWhite launched a debate about the industry’s fidelity to representation and valuing nonwhite contributions, filmmakers like Moonlight’s <persName ref="BJ">Barry Jenkins</persName>, A Wrinkle in Time’s <persName>Ava DuVernay</persName>, and Get Out’s <persName ref="#JP">Jordan Peele</persName> have taken crucial pole positions as visionaries who are pushing the boundaries of <choice><orig>black</orig><reg>Black</reg></choice> representation on film. <persName>Coogler’s</persName> Black Panther joins these projects as a missing piece: a popcorn movie that uses the most mainstream of film genres — the superhero movie — to project the complexity of <choice><orig>black</orig><reg>Black</reg></choice> identity, politics, and creativity.</p>
+<p>Black Panther is in many ways an antidote to the <choice><orig>black</orig><reg>Black</reg></choice> American experience in 2018</p>
+<figure>
+<graphic url="https://cdn.vox-cdn.com/thumbor/NjnCR-KWdd-tLh-u2OolNCHJxRI=/0x0:2048x1080/920x0/filters:focal(0x0:2048x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10165911/blackpantherjordan__1_.jpg"></graphic>
+<figDesc>This photo is of Michael B. Jordan as Erik Killmonger and Chadwick Boseman as T'Challa in Black Panther.</figDesc>
+</figure>
+<p>The renewed conversation around race that Black Panther enters into extends beyond the entertainment industry. As the first <choice><orig>black</orig><reg>Black</reg></choice> superhero film in a cinematic universe that’s spent the past decade focused primarily on white superheroes, it underlines the chasm that exists between society’s treatment of <choice><orig>black</orig><reg>Black</reg></choice> Americans and white Americans.</p>
+<p>In many ways, <choice><orig>black</orig><reg>Black</reg></choice> bodies have experienced a renewed series of attacks in recent years. Black NFL players can’t kneel in protest without recrimination from the president, team owners, or a <choice><orig>conservative-leaning</orig><reg>conservative leaning</reg></choice> fan base. Everyday <choice><orig>black</orig><reg>Black</reg></choice> citizens have been increasingly displaced in gentrifying cities, locked up in prisons at alarming rates, and shot and beaten by law enforcement at equally high ones.</p>
+<p>This makes Black Panther a palate cleanser of sorts, a healthy injection of powerful, beautiful images of the <choice><orig>black</orig><reg>Black</reg></choice> body. It’s what’s behind the lure of <placeName>Wakanda</placeName>, a land of <choice><orig>black</orig><reg>Black</reg></choice> vibrancy, freedom, diversity, and discourse not blighted by outside forces or forced to negotiate with anyone but themselves. It’s why the <persName>Killmonger</persName>/<persName>T’Challa</persName> chasm rings so true, as they both offer their own type of wish fulfillment for <choice><orig>black</orig><reg>Black</reg></choice> viewers: Wouldn’t it be nice to have a world where we aren’t encumbered by systemic racism and oppression and are masters of our own destiny? And yet wouldn’t it also be nice to galvanize a community with resources and political might to address and maybe even reverse the effects of that systemic oppression?</p>
+<p>Told from a posture of power and pride, Black Panther is in many ways a most necessary antidote for the <choice><orig>black</orig><reg>Black</reg></choice> American experience in 2018, an elixir that provides escape into a world where <choice><orig>black</orig><reg>Black</reg></choice> Americans can imagine these conversations outside of the white gaze. As <choice><orig>black</orig><reg>Black</reg></choice> America feels under assault everywhere from Charlottesville to the White House, it’s invaluable to be reminded that we still have the ability to soar and take action like <persName>T’Challa</persName> or <persName>Nakia</persName> or <persName>Okoye</persName>, to be strong <choice><orig>black</orig><reg>Black</reg></choice> bodies of justice. The value of that reminder is not just timely — it’s timeless.</p>
+      </body>
+  </text>
+</TEI>

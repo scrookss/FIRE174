@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Black Women of Wakanda</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="paragraphs" quantity="7">7 paragraphs of the article were encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-11-10">November 10, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title>ALL EYES ARE ON THE WOMEN OF WAKANDA</title>
+<author xml:id="CH">
+<forename>Clover</forename>
+<surname>Hope</surname>
+</author>
+<publisher>
+<orgName xml:id="ELLE">Elle</orgName>
+</publisher>
+<pubPlace>
+<settlement>New York</settlement>
+<region>New York</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-10-10">October 10, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="MDA">
+  <forename>Marlene D</forename>
+  <surname>Allen</surname>
+  </persName>
+  </author>
+  <title type="main">If You Can See It, You Can Be It</title>
+  <title type="sub">Black Panther’s Black Woman Magic</title>
+  </analytic>
+  <monogr>
+  <title level="j">Africology: The Journal of Pan African Studies (<abbr>JPAS</abbr>)</title>
+  <imprint>
+  <publisher></publisher>
+  <pubPlace>
+  <settlement>Santa Clarita</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date>August 2018</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Marlene Allen's piece works to connect CaShawn Thompson's 2013 phrase "Black girl magic" to the Black Panther film. She describes the Black excellence of the women in the film as "Black women magic". She goes into great detail when describing each of the Black actress's role and explains why they emulate "Black women magic". Allen's emphasis on amplififying the importance of these Black women characters in the film is vital to our project considering there has been a lot of attention paid to amplifying the voices of Black women and men who have contributed to the Black Panther conversation.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all hyphenation between words in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+         </hyphenation>
+         <normalization method="silent">
+           <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+       </normalization>
+         <normalization>
+         <p>The B in Black and Blackness was capitalized throughout the text to amplify Black people.</p>
+         <p>There were a few advertisements present throughout this article that we decided to omit. A video at the end of the article was also omitted. This is due to the fact that these advertisments as well as the video have nothing to do with the text and take away from the importance of the amplification of the Black women.</p>
+         </normalization>
+<p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+          </editorialDecl>
+  <samplingDecl>
+  <p>The entire article of 7 paragrpahs was encoded because we believe the auhor, Clover Hope, effectively highighted the Black women of the Black Panther film.</p>
+  <p>The 4 pictures of Angela Bassett, Lupita Nyong'o, and Danai Gurira were retained because the pictures are beautiful and portray the women in a postive way that is not necessarily common for Black women who are often hypersexualized.</p>
+  <p>Advertisments as well as the video at the end of the article was not encoded because we believe it took away from the amplification of these women.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+<persName xml:id="AB" ref="http://id.loc.gov/authorities/names/no95049258">
+<forename>Angela</forename>
+<surname>Bassett</surname>
+</persName>
+<idno type="LCAF">no95049258</idno>
+<note>Angela Bassett is an actress who played Queen Ramonda in Black Panther. Angela along with the other Black women in this film played leading roles which brought about a lot of attention on digital spaces. Black women in particular were appreciative of these characters who many of which thought represented Black women in a positive way.</note>
+  </person>
+  <person>
+  <persName xml:id="DAG" ref="http://id.loc.gov/authorities/names/no2008162135">
+  <forename>Danai</forename>
+  <surname>Gurira</surname>
+  </persName>
+  <idno type="LCAF">no2008162135</idno>
+  <note>Danai Gurira is an actress and she played Okoye in Black Panther. She along with many of the other Black women in this film provided representation that was very needed; Black women as strong, independent, intellegent beings.</note>
+  </person>
+  <person>
+<persName xml:id="LUN" ref="http://id.loc.gov/authorities/names/no2009107748">
+<forename>Lupita</forename>
+<surname>Nyong'o</surname>
+</persName>
+<idno type="LCAF">no2009107748</idno>
+<note>Lupita Nyong'o is an actress and model. She starred in Black Panther as Nakia in Black Panther. Herself along with Letita Wright, Angela Basset, and Danai Gurira portrayed strong, intellgent, and independent Black women in this film. Lupita is important for this project because she was important for a alot of Black women who had been waiting for this type of representation in film. Many Black women took to twitter to describe her character and how it impacted them.</note>
+  </person>
+<person>
+<persName xml:id="LW" ref="http://id.loc.gov/authorities/names/no2018064908">
+<forename>Letitia</forename>
+<surname>Wright</surname>
+</persName>
+<idno type="LCAF">no2018064908</idno>
+<note>Letitia Wright is an actress who played Shuri in Black Panther. It important that she is amplified because she provided representation for Black girls and women interested in technology that is oftentimes not present in films. She has been praised specifically by Black women all over Twitter and other digital spaces.</note>
+</person>
+</listPerson>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>The B in Black was capitalized throughout the the transcription to amplify Black people, made on
+  <date when="2018-11-10">November 10, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <figure>
+<graphic url="https://hips.hearstapps.com/hmg-prod.s3.amaonaws.com/images/bp1-1539112626.jpg?crop=0.976xw:0.723xh;0.0244xw,0&resize=1600">
+<figDesc>From left to right, this photo shows Lupita Nyong'o, Danai Gurira, and Angela Bassett posing for a photoshoot for Elle.</figDesc>
+ </graphic>
+        </figure>
+        <p>When Black Panther hit theaters in February, it wasn’t just an instant classic. It was a major cultural event that would go on to become the country’s <choice><orig>highest-grossing</orig><reg>highest grossing</reg></choice> superhero movie of all time. But beyond numbers, the film offered something even bigger: <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf"> a divine alternate reality in which <choice><orig>black</orig><reg>Black</reg></choice> women weren’t <choice><orig>half-baked</orig><reg>half baked</reg></choice> tropes or superficial emblems of empowerment. This was a blockbuster with an <choice><orig>all-star</orig><reg>all star</reg></choice> coalition of black actresses in leading <choice><orig>roles—a</orig><reg>roles. A</reg></choice> vision hardly ever seen onscreen</supplied>.</p>
+        <p>“The women were integral to the storytelling and the wisdom that the main character possessed,” says <persName>Angela Bassett</persName>, referring to <persName>Chadwick Boseman’s</persName> <persName>King T’Challa</persName>, the <choice><orig>mild-mannered</orig><reg>mild mannered</reg></choice> heart of <placeName>Wakanda</placeName>, a fictional African nation that serves as the film’s setting. <persName>Bassett</persName>, who plays T’Challa’s mother, <persName>Ramonda</persName>, also happens to have the rare distinction of costarring in both the movie of the summer (Mission: <choice><orig>Impossible–Fallout</orig><reg>Impossible: Fallout</reg></choice>), and this, the most <choice><orig>talked-about</orig><reg>talked about</reg></choice> film of the year. <persName>T’Challa</persName> <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">seeks the women’s help and counsel, and they have <choice><orig>answers—and</orig><reg>answers and</reg></choice> sometimes they save the day, <persName>Bassett</persName> adds. “It was really important in terms of the representation of <choice><orig>black</orig><reg>Black</reg></choice> feminine strength.”</supplied></p>
+        <p>IN OUR STORY, THE EMPHASIS IS ON MANY DIFFERENT WOMEN HOLDING THEIR OWN SPACE.</p>
+        <figure>
+<graphic url="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bp2-1539181992.jpg?crop=1xw:1xh;center,top&resize=768:*"></graphic>
+<figDesc>This photo shows Angela Bassett in a kneeling pose.</figDesc>
+        </figure>
+        <p><persName>Bassett’s</persName> Black Panther costar <persName>Danai Gurira</persName>, whose <choice><orig>presence—whether</orig><reg>presence whether</reg></choice> in an indie film (Mother of George) or a dystopian TV series <choice><orig>(The Walking Dead)—tends</orig><reg>(The Walking Dead) tends</reg></choice> to swallow the screen, <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">offers the most vivid display of physical might as <persName>Okoye</persName>, the king’s adviser and general, who steers an army of female soldiers called the Dora Milaje</supplied>. During a fight sequence set in a South Korean casino, <persName>Gurira’s</persName> <persName>Okoye</persName> literally snatches her own wig while performing warrior pirouettes in combat (and on top of that, while wearing a gown). “I loved doing that, from the minute she’s wearing that wig and complaining about it, to the minute she gets rid of it very pragmatically,” <persName>Gurira</persName> says. “That spoke to so many things about feminine aesthetics.” Overall, <persName>Gurira</persName> appreciated how <placeName>Wakanda</placeName>, as a society, “was celebratory of everyone equally [regardless of gender]. You see that in my character. She’s able to excel.”</p>
+        <p>Speaking of excelling, after winning the <orgName>Oscar</orgName> for Best Supporting Actress in 2014 for 12 Years a Slave, <persName>Lupita Nyong’o</persName> has expertly segued from <choice><orig>box-office</orig><reg>box office</reg></choice> gold (Star Wars) to Broadway (the <choice><orig>Gurira-written</orig><reg><persName>Gurira</persName>written</reg></choice> and <choice><orig>Tony-nominated</orig><reg><orgName>Tony</orgName> nominated</reg></choice> play Eclipsed) to the <orgName>Marvel</orgName> realm, in which she plays <persName>Nakia</persName>, a tactical spy who enchants <persName>T’Challa</persName> and goes rogue when the king’s African American adversary, <persName>Erik Killmonger</persName> (<persName>Michael B. Jordan</persName>), takes the throne. <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">“<persName>Nakia</persName> was a departure from the character you see in the comic books. She is an independent woman and a bit of a rebel but also a loyalist to her country,” <persName>Nyong’o</persName> says. “I am also someone who depends on my family and friends and feels a connection to my people, and maybe has a sense of responsibility to make them proud. So I really related to that balancing act within oneself.”</supplied></p>
+        <figure>
+<graphic url="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bp3-1539112882.jpg?crop=1xw:1xh;center,top&resize=480:*"></graphic>
+<figDesc>This photo is of Danai Gurira posing.</figDesc>
+        </figure>
+        <p>In addition to this power trio are <persName>Shuri</persName>, <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">the shrewd young mastermind who leverages <placeName>Wakanda’s</placeName> secret reserves of precious vibranium to turn the country into a futurist utopia, played by <persName>Letitia Wright</persName> (featured in our roundup of promising <choice><orig>up-and-comers</orig><reg>up and comers</reg></choice> in last year’s Women in Hollywood issue)</supplied>; and <persName>Ayo</persName> (<persName>Florence Kasumba</persName>), a <choice><orig>stand-out</orig><reg>stand out</reg></choice> Dora Milaje fighter. Very early on, it becomes clear that while <persName>T’Challa</persName> may be king, it’s the women who command the kingdom and ultimately save <placeName>Wakanda</placeName> from crisis. <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">“In our story, the emphasis is on many different women holding their own space,” says <persName>Nyong’o</persName>, describing the film as “a <orgName>Marvel</orgName> universe that is unapologetically <choice><orig>black</orig><reg>Black</reg></choice>.”</supplied></p>
+        <p>On opening night and beyond, fans dressed in cosplay, racked up multiple viewings, and flooded social media, which helped Black Panther earn over $700 million in the <country>U.S.</country> “I really do believe in the power of excellent storytelling transcending culture and creed,” <persName>Gurira</persName> says. <persName>Bassett</persName> says of the film’s impact, “We all felt the anticipation but had no idea how it would mushroom, or that it would be so global and smash whatever preconceived notions we’ve heard for <choice><orig>decades—that</orig><reg>decades that</reg></choice> stories like this about these people won’t travel as well or won’t generate financially on such a huge scale.”</p>
+        <figure>
+<graphic url="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/11-2018-bp-cover-1539116438.jpg?crop=1xw:1xh;center,top&resize=980:*"></graphic>
+<figDesc>From left to right, this photo shows Danai Guira, Lupita Nyong'o, and Angela Bassett embracing on the cover of Elle magazine.</figDesc>
+        </figure>
+        <p>More recently, the film has entered the 2019 <choice><orig>awards-season</orig><reg>awards seasons</reg></choice> fray. There’s talk that Black Panther deserves to be in contention for Best Picture. Whatever the outcome, it has succeeded where so many superhero movies have failed: It built a <choice><orig>fairy-tale</orig><reg>fairy tale</reg></choice> world with real stakes that was contemporary yet rooted in history and had women moving the story <choice><orig>forward—at</orig><reg>forward, at</reg></choice> times, so much so that it felt like <placeName>Wakanda</placeName> was their world, and everyone else just lived in it.</p>
+      </body>
+  </text>
+</TEI>

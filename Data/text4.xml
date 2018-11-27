@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">What Does Black Panther Mean to You?</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+<forename>Raffaele</forename>
+<surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+<orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+<orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="paragraphs" quantity="27">The entire written article of 27 paragraphs was encoded as well the three photos embedded within the article.</measure>
+           </extent>
+         <publicationStmt>
+           <publisher>
+             <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+           </publisher>
+           <date when="2018-10-18">October 18, 2018</date>
+           <pubPlace>
+            <settlement>College Park</settlement>
+            <region>Maryland</region>
+           </pubPlace>
+           <availability status="free">
+           <p>In the public domain.</p>
+         </availability>
+</publicationStmt>
+<seriesStmt>
+  <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+  <title type="sub">Black Panther</title>
+  <respStmt>
+<resp>Edited by</resp>
+<persName>
+<forename ref="#JLU">Jessica</forename>
+<surname>Lu</surname>
+</persName>
+  </respStmt>
+  <respStmt>
+<resp>Texts identified and assembled by</resp>
+<persName ref="#SC">
+<forename>Sophia</forename>
+<surname>Crooks</surname>
+</persName>
+<persName ref="#KG">
+<forename>Kayla</forename>
+<surname>Graham</surname>
+</persName>
+  </respStmt>
+</seriesStmt>
+      <sourceDesc>
+<listBibl>
+<bibl>
+<title type="main">Why 'Black Panther' Is a Defining Moment for Black America</title>
+<title type="sub">Ryan Coogler's film  is a vivid re-imagination of something Black Americans have cherished for centuries- Africa as a dream of our wholeness, greatness and self-realization.</title>
+<author xml:id="CW">
+  <forename>Carvell</forename>
+  <surname> Wallace</surname>
+  </author>
+<publisher>
+<orgName xml:id="NYT">The New York Times</orgName>
+</publisher>
+<pubPlace>
+<settlement>New York City</settlement>
+<region>New York (<abbr>NY</abbr>)</region>
+<country>United States of America(<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-02-12">February 12, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">"Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+  <persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+  </persName>
+</author>
+<publisher>
+<orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+<settlement>College Park</settlement>
+<region>Maryland (<abbr>MD</abbr>)</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-06-28">June 28, 2018</date>
+</bibl>
+<bibl>
+<interpGrp resp="#JLUDISS" type="freedom-ideas">
+  <desc>Ideational analysis of freedom.</desc>
+  <interp xml:id="STRAND1">Strand 1</interp>
+  <interp xml:id="STRAND2">Strand 2</interp>
+  <interp xml:id="STRAND3">Strand 3</interp>
+  <interp xml:id="STRAND4">Strand 4</interp>
+  <interp xml:id="STRAND5">Strand 5</interp>
+</interpGrp>
+</bibl>
+<biblStruct type="article">
+  <analytic>
+<author>
+<persName xml:id="CKS">
+<forename>Catherine</forename>
+<surname>Knight Steele</surname>
+</persName>
+</author>
+<title>The Digital Barbershop: Blogs and Online Oral Culture Within the African American Community</title>
+  </analytic>
+  <monogr>
+<title level="j">SAGE journals</title>
+<imprint>
+<publisher>University of Maryland Department of Communications</publisher>
+<pubPlace>
+<settlement>College Park</settlement>
+<region>Maryland (<abbr>MD</abbr>)</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2016-12-01">December 1, 2016</date>
+</imprint>
+  </monogr>
+  <note>In this article, Catherine Knight Steele explores nine blogs by various African Americans in order to analyze the rhetorical strategies they use. She found that online spaces have become comparable to Black barbershops and beauty shops in that Black people have begun to use the same rhetorical strategies they have used in the past. Black people use these blogs to crtique aspects scoiety as well as assert their Blackness. The comparison of online platforms as Black barbershops and beauty shops contributes to this digital edition project considering an immense amount of effort has been made to amplify Black twitter users, bloggers, and Youtubers. The language used to describe the Black Panther movie, specifically the language used to describe the impact of a movie that centralizes accurate representations of Black people has been mplified in this project. </note>
+</biblStruct>
+<biblStruct type="article">
+<analytic>
+<author>
+<persName xml:id="GFA">
+<forename>George</forename>
+<surname>Faithful</surname>
+</persName>
+</author>
+<title>Dark of the World, Shine on Us: The Redemption of Blackness in Ryan Coogler’s Black Panther</title>
+</analytic>
+<monogr>
+<title level="j">MDPI-Religions</title>
+<imprint>
+<publisher>School of Liberal Arts and Education, Dominican University of California</publisher>
+<pubPlace>
+<settlement>San Rafael</settlement>
+<region>California (<abbr>CA</abbr>)</region>
+<country>United States of America(<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-08-14">August 14, 2018</date>
+</imprint>
+</monogr>
+<note>In this article, George Faithful's in depth analysis of the Black Panther movie focuses on the centralization of Blackness. He describes the characters of Black Panther as god-like creatures that express different aspects of Blackness that we have not seen in many films. Black Panther focuses on representing Black people in an accurate and empowering way that has been missing from majority of films. This contributes to our project in that we focus on amifying the ideas that Black people on digitial spaces have had on the accurate representation of Blackness in this film.</note>
+</biblStruct>
+<biblStruct type="article">
+  <analytic>
+<author>
+<persName xml:id="JRH">
+<forename>Jesse</forename>
+<surname>Rhines</surname>
+</persName>
+</author>
+<title>Black Film/Black Future</title>
+  </analytic>
+  <monogr>
+<title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+<imprint>
+<publisher>The Black Scholar</publisher>
+<pubPlace>
+<settlement>San Francisco</settlement>
+<region>California (<abbr>CA</abbr>)</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2015-04-14">April 14,2015</date>
+</imprint>
+  </monogr>
+  <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+</biblStruct>
+<biblStruct type="article">
+<analytic>
+<author>
+<persName ref="#CKS">
+<forename>Catherine</forename>
+<surname>Knight Steele</surname>
+</persName>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+</persName>
+</author>
+<title>Defying Death: Black Joy as Resistance Online</title>
+</analytic>
+<monogr>
+  <title type="j">Taylor and Francis Group</title>
+  <imprint>
+<publisher></publisher>
+<pubPlace>
+<settlement>New York</settlement>
+<region></region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-05-01">May 1, 2018</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Catherine Knight Steele and Jessica Lu explore the rhetoric used by Black twitter users. They found that various hastags, memes, and other practices have been used by Black people as a form of resistance. This resistance stems from the lack of postive representation that Black people recieve in film and the media in general. The portrayals of Black joy online has been used to humanize Black people. This contributes to the project considering we have focused on amlifying and perserving the postive rhetoric throughout online spaces used to describe the Black Panther movie. The response from Black people after the release of this movie exemplifies the fact that Blackness does not always have to correlate to sadness and death but rather intellegence, technological adnvancement, and strength. </note>
+</biblStruct>
+</listBibl>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all hyphenation between words in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+         </hyphenation>
+         <normalization method="silent">
+           <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+       </normalization>
+        <normalization>
+        <p>The B in Black and Blackness was capitalized throughout the text to amplify Black people.</p>
+        <p>There were a few advertisements present throughout this article that we decided to omit. This is due to the fact that these advertisments have nothing to do with the text and take away from the importance of this text.</p>
+        </normalization>
+        <p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+        </editorialDecl>
+  <samplingDecl>
+   <p>The three pictures that the author, Carvell Wallace, decided to input have been retained. We believe that these pictures are important in order to provide visuals that coresspond to what the author is writing. They can view the pictures along with reading his writing in order to absorb the information better and paint a picture in the reader's mind.</p>
+   <p>Twenty seven out of twenty seven paragraphs in the written article were encoded. We believe that the entire article was important because it not only provided Carvell Wallace's attitudes toward Black Panther but also provided historical context in regards to accurate Black representation that has been lacking prior to this movie.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+    <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+      <forename>Ryan</forename>
+      <surname>Coogler</surname>
+    </persName>
+    <idno type="LCAF">no2014012055</idno>
+    <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people which is why he directed the film in the way that he did. He is partly responsible for the large amount of Black people taking to twitter and other platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying. </note>
+    </person>
+    <person>
+    <persName xml:id="JB" ref="http://id.loc.gov/authorities/names/no2018111912">
+      <forename>Jamie</forename>
+      <surname> Broadnax</surname>
+    </persName>
+    <idno type="LCAF">no2018111912</idno>
+    <note>Jamie Broadnax is a blogger who founded the site, Black Girl Nerds. She is important to this project considering she created her own platform in order to provide Black women with a space to express their interests in comic books. She along with many Black people in the online sphere expressed the importance of the representation in the Black Panther film. </note>
+    </person>
+    <person>
+    <persName xml:id="NN" ref="http://id.loc.gov/authorities/names/n87838433">
+      <forename>Nichelle</forename>
+      <surname>Nichols</surname>
+    </persName>
+    <idno type="LCAF">n87838433</idno>
+    <note>Nichelle Nichols is an actress, author, and dancer. She played Lieutenant Uhura in the original Star Strek which was incredibly signficant as Carvell Wallce describes in this article. The Black community reacted very postively because to the representation of this Black woman in this film. She was one of the first Black women represented in a science fiction movie that lead the way to actresses like Letita Wright playing the intellegent and technology savy character, Shuri.</note>
+    </person>
+    <person>
+    <persName xml:id="ADV" ref="http://id.loc.gov/authorities/names/no2011127416">
+      <forename>Ava</forename>
+      <surname>DuVernay</surname>
+      </persName>
+      <idno type="LCAF">no2011127416</idno>
+      <note>Ava DuVernay is a producer, director, and writer. She worked alongside Ryan Coogler as he directed Black Panther and she directed a Wrinkle in Time. She, like Coogler, was responsible for majority of the decisions that went into Black representation in the film. A Wrinkle in Time was another important film of 2018 in it featured quite a few sigficant Black characters played by Stormi Reid, Oprah Winfrey, Conrad Roberts, and David Oyelowo.</note>
+      </person>
+</listPerson>
+<personGrp>
+<persName xml:id="BLK">Black and African American people</persName>
+<note>The identification and amplification of this person group is necessary for the reading and interpretation of this text, as this text uses "We" throughoout the article to refer to the Black community. This group is important to amplify considering Black people's ideas and beliefs are important to our project. </note>
+</personGrp>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+<change>
+  The B in Black was capitalized throughout the text to amplify Black people, made on
+<date when="2018-10-31">October 31, 2018</date>.
+ </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+<p>The Grand Lake Theater — the kind of <choice><orig>old-time</orig><reg>old time</reg></choice> movie house with cavernous ceilings and ornate crown moldings — is one place I take my kids to remind us that we belong to <placeName>Oakland, Calif.</placeName> Whenever there is a film or community event that has meaning for this town, the Grand Lake is where you go to see it. There are local film festivals, indie film festivals, erotic film festivals, congressional town halls, political <choice><orig>fund-raisers</orig><reg>fundraisers</reg></choice>. After Hurricane Katrina, the lobby served as a <choice><orig>drop-off</orig><reg>drop off</reg></choice> for donations. We run into friends and classmates there. On weekends we meet at the farmers’ market across the street for coffee.</p>
+<p>The last momentous community event I experienced at the Grand Lake was a weeknight viewing of “Fruitvale Station,” the 2013 film directed by the <placeName>Bay Area</placeName> native <persName ref="RC">Ryan Coogler</persName>. It was about the <choice><orig>real-life</orig><reg>real life</reg></choice> police shooting of <persName>Oscar Grant</persName>, 22, right here in <placeName>Oakland</placeName>, where Grant’s killing landed less like a news story and more like the death of a friend or a child. He had worked at a popular grocery, gone to schools and summer camps with the children of acquaintances. His death — he was shot by the transit police while handcuffed, unarmed and face down on a <choice><orig>train-station</orig><reg>train station</reg></choice> platform, early in the morning of <date when="2009-01-01">New Year’s Day 2009</date> — sparked intense grief, outrage and sustained protest, years before Black Lives Matter took shape as a movement. <persName ref="RC">Coogler’s</persName> telling took us slowly through the minutiae of <persName>Grant’s</persName> last day alive: We saw his family and child, his struggles at work, his relationship to a gentrifying city, his attempts to make sense of a young life that felt both aimless and daunting. But the moment I remember most took place after the movie was over: A group of us, friends and strangers alike and nearly all <choice><orig>black</orig><reg>Black</reg></choice>, stood in the cool night under the marquee, crying and holding one another. It didn’t matter that we didn’t know one another. We knew enough.</p>
+<p>On a misty morning this January, I found myself standing at that same spot, having gotten out of my car to take a picture of the Grand Lake’s marquee. The words “Black Panther” were on it, placed dead center. They were not in normal-size letters; the theater was using the biggest ones it had. All the other titles huddled together in another corner of the marquee. A month away from its <date when="2018-02-16">Feb. 16</date> opening, “Black Panther” was, already and by a wide margin, the most important thing happening at the Grand Lake.</p>
+<p><orgName>Marvel Comics’s</orgName> Black Panther was originally conceived in 1966 by <persName>Stan Lee</persName> and <persName>Jack Kirby</persName>, two Jewish New Yorkers, as a bid to offer <choice><orig>black</orig><reg>Black</reg></choice> readers a character to identify with. The titular hero, whose real name is <persName>T’Challa</persName>, is heir apparent to the throne of <placeName>Wakanda</placeName>, a fictional African nation. The tiny country has, for centuries, been in nearly sole possession of vibranium, an alien element acquired from a fallen meteor. (Vibranium is powerful and nearly indestructible; it’s in the special alloy Captain America’s shield is made of.) <placeName>Wakanda’s</placeName> rulers have wisely kept their homeland and its elemental riches hidden from the world, and in its isolation the nation has grown wildly powerful and technologically advanced. Its secret, of course, is inevitably discovered, and as the world’s evil powers plot to extract the resources of yet another African nation, <persName>T’Challa’s</persName> father is cruelly assassinated, forcing the end of <placeName>Wakanda’s</placeName> sequestration. The young king will be forced to don the virtually indestructible vibranium Black Panther suit and face a duplicitous world on behalf of his people.</p>
+<p>This is the subject of <persName ref="RC">Ryan Coogler’s</persName> third feature film — after “Fruitvale Station” and “Creed” (2015) — and when glimpses of the work first appeared last June, the response was frenzied. The trailer teaser — not even the full trailer — racked up 89 million views in 24 hours. On <date when="2018-01-10">Jan. 10, 2018</date>, after tickets were made available for presale, <orgName>Fandango’s</orgName> managing editor, <persName>Erik Davis</persName>, tweeted that the movie’s first 24 hours of advance ticket sales exceeded those of any other movie from the Marvel Cinematic Universe.</p>
+         <figure>
+<graphic url="https://static01.nyt.com/images/2018/02/18/magazine/18mag-blackpanthers2/18mag-blackpanthers2-master675-v2.jpg"></graphic> <figDesc>From left to right, this picture shows Lupita Nyong’o, Chadwick Boseman and Letitia Wright as their characters in Black Panther.</figDesc>
+         </figure>
+<p><supplied source="http://journals.sagepub.com/doi/abs/10.1177/2056305116683205">The <choice><orig>black</orig><reg>Black</reg></choice> internet was, to put it mildly, exploding. Twitter reported that “Black Panther” was one of the most <choice><orig>tweeted-about</orig><reg>tweeted about</reg></choice> films of 2017</supplied>, despite not even opening that year. There were plans for viewing parties, a <choice><orig>fund-raiser</orig><reg>fundraiser</reg></choice> to arrange a private screening for the <orgName>Boys and Girls Club of Harlem</orgName>, like #BlackPantherSoLit and #WelcomeToWakanda. When the date of the premiere was announced, people began posting pictures of what might be called <choice><orig>African-Americana</orig><reg>African American</reg></choice>, a kitsch version of an older generation’s pride touchstones — kente cloth <choice><orig>du-rags</orig><reg>durags</reg></choice>, <choice><orig>candy-colored</orig><reg>candy colored</reg></choice> <choice><orig>nine-button</orig><reg>nine button</reg></choice> suits, <persName>King Jaffe Joffer</persName> from “Coming to America” with his <choice><orig>lion-hide</orig><reg>lion hide</reg></choice> sash — alongside captions like “This is how I’ma show up to the Black Panther premiere.” Someone described how they’d feel approaching the box office by simply posting a video of the <placeName>Compton</placeName> rapper <persName>Buddy</persName> <choice><orig>Crip-walking</orig><reg>Crip walking</reg></choice> in front of a Moroccan hotel.</p>
+<p>None of this is because “Black Panther” is the first major <choice><orig>black</orig><reg>Black</reg></choice> superhero movie. Far from it. In the mid-1990s, the <persName>Damon Wayans</persName> vehicle “Blankman” and <persName>Robert Townsend’s</persName> “The Meteor Man” played <choice><orig>black-superhero</orig><reg>Black superhero</reg></choice> premises for campy laughs. Superheroes are powerful and beloved, held in high esteem by society at large; the idea that a normal <choice><orig>black</orig><reg>Black</reg></choice> person could experience such a thing in America was so <choice><orig>far-fetched</orig><reg>far fetched</reg></choice> as to effectively constitute gallows humor. “Blade,” released in 1998, featured <persName>Wesley Snipes</persName> as a Marvel vampire hunter, and “Hancock” (2008) depicted <persName>Will Smith</persName> as a slacker antihero, but in each case the actor’s <choice><orig>blackness</orig><reg>Blackness</reg></choice>seemed somewhat incidental.</p>
+<p><supplied source="https://doi.org/10.3390/rel9100304">“Black Panther,” by contrast, is steeped very specifically and purposefully in its <choice><orig>blackness</orig><reg>Blackness</reg></choice>. “It’s the first time in a very long time that we’re seeing a film with centered <choice><orig>black</orig><reg>Black</reg></choice> people, where we have a lot of agency,”</supplied> says <persName ref="JB">Jamie Broadnax</persName>, the founder of Black Girl Nerds, a <choice><orig>pop-culture</orig><reg>pop culture></reg></choice> site focused on <choice><orig>sci-fi</orig><reg> science fiction</reg></choice> and <choice><orig>comic-book</orig><reg>comic books</reg></choice> fandoms. These characters, she notes, “are rulers of a kingdom, inventors and creators of advanced technology. We’re not dealing with <choice><orig>black</orig><reg>Black</reg></choice> pain, and <choice><orig>black</orig><reg>Black</reg></choice> suffering, and <choice><orig>black</orig><reg>Black</reg></choice> poverty” — the usual topics of acclaimed movies about the Black experience.</p>
+<p>In a video posted to Twitter in December, which has since gone viral, three young men are seen fawning over the “Black Panther” poster at a movie theater. One jokingly embraces the poster while another asks, rhetorically: “This is what white people get to feel all the time?” There is laughter before someone says, as though delivering the punch line to the most painful joke ever told: “I would love this country, too.”</p>
+<p><persName ref="RC">Ryan Coogler</persName> saw his first Black Panther comic book as a child, at an <placeName>Oakland</placeName> shop called Dr. Comics and Mr. Games, about a mile from the Grand Lake Theater. When I sat down with him in early February, at the Montage Hotel in <placeName>Beverly Hills</placeName>, I told him about the night I saw “Fruitvale Station,” and he listened with his head down, slowly nodding. When he looked up at me, he seemed to be blinking back tears of his own.</p>
+       <figure>
+<graphic url="https://static01.nyt.com/images/2018/02/18/magazine/18mag-blackpanthers-webextra4/18mag-blackpanthers-webextra4-blog427.jpg"></graphic> <figDesc>This picture shows the cover of the Fantastic Four comic book from 1966 in which Black Panther is debuted for the first time.</figDesc>
+     </figure>
+<p><persName ref="RC">Coogler</persName>played football in high school, and between his fitness and his humble listening poses — leaning forward, elbows propped on knees — he reminds me of what might happen if a <choice><orig>mild-mannered</orig><reg>mild mannered</reg></choice> athlete accidentally discovered a radioactive movie camera and was gifted with remarkable artistic vision. He’s interested in questions of identity: What does it mean to be a <choice><orig>black</orig><reg>Black</reg></choice> person or an African person? “You know, you got to have the race conversation,” he told me, describing how his parents prepared him for the world. “And you can’t have that without having the slavery conversation. And with the slavery conversation comes a question of, O.K., so what about before that? And then when you ask that question, they got to tell you about a place that nine times out of 10 they’ve never been before. So you end up hearing about Africa, but it’s a skewed version of it. It’s not a tactile version.”</p>
+<p>Around the time he was wrapping up “Creed,” <persName ref="RC">Coogler</persName> made his first journey to the continent, visiting <placeName>Kenya, South Africa</placeName> and the <placeName>Kingdom of Lesotho</placeName>, a tiny nation in the center of the South African landmass. Tucked high amid rough mountains, Lesotho was spared much of the colonization of its neighbors, and <persName>Coogler</persName> based much of his concept of <placeName>Wakanda</placeName> on it. While he was there, he told me, he was being shown around by an older woman who said she’d been a lover of the South African pop star <persName>Brenda Fassie</persName>. Riding along the hills with this woman, <persName ref="RC">Coogler</persName> was told that they would need to visit an even older woman in order to drop off some watermelon. During their journey, they would stop occasionally to approach a shepherd and give him a piece of watermelon; each time the shepherd would gingerly take the piece, wrap it in cloth and tuck it away as though it were a religious totem. Time passed. Another bit of travel, another shepherd, another gift of watermelon. Eventually <persName ref="RC">Coogler</persName>grew frustrated: “Why are we stopping so much?” he asked. “Watermelon is sacred,” he was told. “It hydrates, it nourishes and its seeds are used for offerings.” When they arrived at the old woman’s home, it turned out that she was, in fact, a watermelon farmer, but her crop had not yet ripened — she needed a delivery to help her last the next few weeks.</p>
+<p>When I was a kid, I refused to eat watermelon in front of white people. To this day, the word itself makes me uncomfortable. <persName ref="RC">Coogler</persName>told me that in high school he and his <choice><orig>black</orig><reg>Black</reg></choice> football teammates used to have the same rule: Never eat watermelon in front of white teammates. Centuries of demonizing and ridiculing <choice><orig>blacknes</orig><reg>Blackness</reg></choice> have, in effect, forced <choice><orig>black</orig><reg>Black</reg></choice> people to abandon what was once sacred. When we spoke of Africa and <choice><orig>black</orig><reg>Black</reg></choice> Americans’ attempts to reconnect with what we’re told is our lost home, I admitted that I sometimes wondered if we could ever fully be part of what was left behind. He dipped his head, fell briefly quiet and then looked back at me with a solemn expression. “I think we can,” he said. “It’s no question. It’s almost as if we’ve been brainwashed into thinking that we can’t have that connection.”</p>
+<p>“Black Panther” is a <placeName>Hollywood</placeName> movie, and <placeName>Wakanda</placeName> is a fictional nation. But coming when they do, from a director like <persName ref="RC">Coogler</persName>, they must also function as a place for multiple generations of <choice><orig>black</orig><reg>Black</reg></choice> Americans to store some of our most deeply held aspirations. We have for centuries sought to either find or create a promised land where we would be untroubled by the criminal horrors of our American existence. From <persName>Paul Cuffee’s</persName>attempts in 1811 to repatriate <choice><orig>blacks</orig><reg>Blacks</reg></choice> to <placeName>Sierra Leone</placeName> and <persName>Marcus Garvey’s</persName> <choice><orig>back-to-Africa</orig><reg>back to Africa</reg></choice> Black Star shipping line to the Afrocentric movements of the ’60s and ’70s, <choice><orig>black</orig><reg>Black</reg></choice> people have populated the Africa of our imagination with our most yearning attempts at <choice><orig>self-realization</orig><reg>self realization</reg></choice>. In my earliest memories, the Africa of my family was a warm fever dream, seen on the record covers I stared at alone, the sun setting over glowing, haloed Afros, the smell of incense and oils at the homes of my father’s friends — a beauty so pure as to make the world outside, one of car commercials and blond sitcom families, feel empty and perverse in comparison. As I grew into adolescence, I began to see these romantic visions as just another irrelevant habit of the older folks, like a folk remedy or a warning to wear a jacket on a breezy day. But by then my generation was building its own African dreamscape, populated by <choice><orig>KRS-One</orig><reg>KRS One</reg></choice>, Public Enemy and Poor Righteous Teachers; we were indoctrinating ourselves into a prideful militancy about our worth. By the end of the century, “Black Star” was not just the name of <persName>Garvey’s</persName> shipping line but also one of the greatest <choice><orig>hip-hop</orig><reg>hip hop</reg></choice> albums ever made.</p>
+<p>Never mind that most of us had never been to <placeName>Africa</placeName>. The point was not verisimilitude or a precise accounting of <placeName>Africa’s</placeName> reality. It was the envisioning of a free self. <persName>Nina Simone</persName> once described freedom as the absence of fear, and as with all humans, the attempt of <choice><orig>black</orig><reg>Black</reg></choice> Americans to picture a homeland, whether real or mythical, was an attempt to picture a place where there was no fear. This is why it doesn’t matter that Wakanda was an idea from a comic book, created by two Jewish artists. No one knows colonization better than the colonized, and <choice><orig>black</orig><reg>Black</reg></choice> folks wasted no time in recolonizing <placeName>Wakanda</placeName>. No genocide or takeover of land was required. <placeName>Wakanda</placeName> is ours now. We do with it as we please.</p>
+<p>Until recently, most popular speculation on what the future would be like had been provided by white writers and futurists, like <persName>Isaac Asimov</persName> and <persName>Gene Roddenberry</persName>. Not coincidentally, these futures tended to carry the power dynamics of the present into perpetuity. Think of the original “Star Trek,” with its peaceful, international crew, still under the charge of a white man from <placeName>Iowa</placeName>. At the time, the character of <persName>Lieutenant Uhura</persName>, played by <persName ref="NN">Nichelle Nichols</persName>, was so vital for <choice><orig>African-Americans</orig><reg>African Americans</reg></choice> — the <choice><orig>black</orig><reg>Black</reg></choice> woman of the future as an accomplished philologist — that, as <persName>Nichols</persName> told NPR, the <persName>Rev. Dr. Martin Luther King Jr.</persName> himself persuaded her not to quit the show after the first season.
+It was a symbol of great progress that she was conceived as something more than a maid. But so much still stood in the way of her being conceived as a captain.</p>
+<p>The artistic movement called Afrofuturism, a decidedly <choice><orig>black</orig><reg>Black</reg></choice> creation, is meant to go far beyond the limitations of the white imagination. It isn’t just the idea that <choice><orig>black</orig><reg>Black</reg></choice> people will exist in the future, will use technology and science, will travel deep into space. It is the idea that we will have won the future. There exists, somewhere within us, an image in which we are whole, in which we are home. Afrofuturism is, if nothing else, an attempt to imagine what that home would be. “Black Panther” cannot help being part of this. “<placeName>Wakanda</placeName> itself is a dream state,” says the director <persName ref="AD">Ava DuVernay</persName>, “a place that’s been in the hearts and minds and spirits of <choice><orig>black</orig><reg>Black</reg></choice> people since we were brought here in chains.” She and <persName ref="RC">Coogler</persName> have spent the past few months working across the hall from each other in the same editing facility, with him tending to “Black Panther” and her to her <choice><orig>much-anticipated</orig><reg>much anticipated</reg></choice> film of Madeleine L’Engle’s “A Wrinkle in Time.” At the heart of <placeName>Wakanda</placeName>, she suggests, lie some of our most excruciating existential questions: “What if they didn’t come?” she asked me. “And what if they didn’t take us? What would that have been?”</p>
+     <figure>
+<graphic url="https://static01.nyt.com/images/2018/02/18/magazine/18mag-blackpanthers-webextra3/18mag-blackpanthers-webextra3-master675-v2.jpg"></graphic><figDesc>From left to right, this picture shows Chadwick Boseman and Daniel Kaluuya as their characters in Black Panther.</figDesc>
+    </figure>
+<p>Afrofuturism, from its earliest iterations, has been an attempt to imagine an answer to these questions. The movement spans from free-jazz thinkers like <persName>Sun Ra</persName>, who wrote of an African past filled with alien technology and extraterrestrial beings, to the art of <persName>Krista Franklin</persName> and <persName>Ytasha Womack</persName>, to the writers <persName>Octavia Butler</persName>, <persName>Nnedi Okorafor</persName>and ,<persName>Derrick Bell</persName>, to the music of <persName>Jamila Woods</persName> and <persName>Janelle Monáe</persName>. Their work, says <persName>John I. Jennings</persName> — a media and cultural studies professor at the University of California, Riverside, and co-author of “Black Comix Returns” — is a way of upending the system, “because it jumps past the victory. Afrofuturism is like, ‘We already won.’ ” Comic books are uniquely suited to handling this proposition. In them the laws of our familiar world are broken: <choice><orig>Mild-mannered</orig><reg>Mild mannered</reg></choice> students become godlike creatures, mutants walk among us and untold power is, in an instant, granted to the most downtrodden. They offer an escape from reality, and who might need to escape reality more than a people kidnapped to a stolen land and treated as <choice><orig>less-than-complete</orig><reg>less than complete</reg></choice> humans?</p>
+<p>At the same time, it is notable that despite selling more than a million books and being the first <choice><orig>science-fiction</orig><reg>science fiction</reg></choice> author to win a MacArthur fellowship, <persName>Octavia Butler</persName>, one of Afrofuturism’s most important voices, never saw her work transferred to film, even as studios churned out adaptations of lesser works on a monthly basis. <persName>Butler’s</persName> writing not only featured <choice><orig>African-Americans</orig><reg>African Americans</reg></choice> as protagonists; it specifically highlighted <choice><orig>African-American</orig><reg>African American</reg></choice> women. If projects by and about <choice><orig>black</orig><reg>Black</reg></choice> men have a hard time getting made, projects by and about <choice><orig>black</orig><reg>Black</reg></choice> women have a nearly impossible one. In March, <orgName>Disney</orgName> will release “A Wrinkle in Time,” featuring <persName>Storm Reid</persName> and <persName>Oprah Winfrey</persName> in lead roles; the excitement around this female-led film does not seem to compare, as of yet, with the explosion that came with “Black Panther.” But by focusing on a <choice><orig>black</orig><reg>Black</reg></choice> female hero — one who indeed saves the universe — <persName>DuVernay</persName> is embodying the deepest and most powerful essence of Afrofuturism: to imagine ourselves in places where we had not been previously imagined.</p>
+<p>Can films like these significantly change things for <choice><orig>black</orig><reg>Black</reg></choice> people in America? The expectations around “Black Panther” remind me of the way I heard the elders in my family talking about the mini-series “Roots,” which aired on <orgName>ABC</orgName> in 1977. A multigenerational drama based on the best-selling book in which <persName>Alex Haley</persName> traced his own family history, “Roots” told the story of an African slave kidnapped and brought to <placeName>America</placeName>, and traced his progeny through over 100 years of American history. It was an attempt to claim for us a home, because to be <choice><orig>black</orig><reg>Black</reg></choice> in America is to be both with and without one: You are told that you must honor this land, that to refuse this is tantamount to hatred — but you are also told that you do not belong here, that you are a burden, an animal, a slave. <persName>Haley</persName>, through research and narrative and a fair bit of invention, was doing precisely what Afrofuturism does: imagining our <choice><orig>blackness</orig><reg>Blackness</reg></choice>as a thing with meaning and with lineage, with value and place.</p>
+<p>“The climate was very different in 1977,” the actor <persName>LeVar Burton</persName> recalled to me recently. <persName>Burton</persName> was just 19 when he landed an audition, his first ever, for the lead role of young <persName>Kunta Kinte</persName> in the <choice><orig>mini-series</orig><reg>mini series</reg></choice>. “We had been through the civil rights movement, and there were visible changes as a result, like there was no more Jim Crow,” he told me. “We felt that there were advancements that had been made, so the conversation had really sort of fallen off the table.” The series, he said, was poised to reignite that conversation. “The story had never been told before from the point of view of the Africans. <placeName>America</placeName>, both <choice><orig>black</orig><reg>Black</reg></choice> and white, was getting an emotional education about the costs of slavery to our common American psyche.”</p>
+<p>To say that “Roots” held the attention of a nation for its <choice><orig>eight-consecutive-night</orig><reg>eight consecutive night</reg></choice> run in January 1977 would be an understatement. Its final episode was viewed by 51.1 percent of all American homes with televisions, a kind of reach that seemed sure to bring about some change in opportunities, some new standing in American culture. “The expectation,” <persName>Burton</persName> says, “was that this was going to lead to all kinds of <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">positive portrayals of <choice><orig>black</orig><reg>Black</reg></choice> people on the screen both big and small, and it just didn’t happen. It didn’t go down that way, and it’s taken years.</supplied>”</p>
+<p>Here in <placeName>Oakland</placeName>, I am doing what it seems every other <choice><orig>black</orig><reg>Black</reg></choice> person in the country is doing: assembling my delegation to <placeName>Wakanda</placeName>. We bought tickets for the opening as soon as they were available — the first time in my life I’ve done that. Our contingent is made up of my <choice><orig>12-year-old</orig><reg>12 year old</reg></choice> daughter and her friend; my <choice><orig>14-year-old</orig><reg>14 year old</reg></choice> son and his friend; one of my oldest confidants, dating back to adolescence; and two of my closest current friends. Not everyone knows everyone else. But we all know enough. Our group will be eight <choice><orig>black</orig><reg>Black</reg></choice> people strong.</p>
+<p>Beyond the question of what the movie will bring to <choice><orig>African-Americans</orig><reg>African Americans</reg></choice> sits what might be a more important question: What will <choice><orig>black</orig><reg>Black</reg></choice>people bring to “Black Panther”? The film arrives as a corporate product, but we are using it for our own purposes, posting with unbridled ardor about what we’re going to wear to the opening night, announcing the depths of the squads we’ll be rolling with, declaring that <date when="2018-02-16">Feb. 16, 2018</date>, will be “the Blackest Day in History.”</p>
+<p><supplied source="https://www.taylorfrancis.com/books/e/9781351784122/chapters/10.4324%2F9781315202129-9">This is all part of a tradition of unrestrained celebration and joy that we have come to rely on for our spiritual survival</supplied>. We know that there is no end to the reminders that our lives, our hearts, our personhoods are expendable. Yes, many nonblack people will say differently; they will declare their love for us, they will post <persName>Martin Luther King Jr.</persName> and <persName>Nelson Mandela</persName> quotes one or two days a year. But the actions of our country and its collective society, and our experiences within it, speak unquestionably to the opposite. Love for <choice><orig>black</orig><reg>Black</reg></choice> people isn’t just saying <persName>Oscar Grant</persName> should not be dead. Love for <choice><orig>black</orig><reg>Black</reg></choice>people is <persName>Oscar Grant</persName> not being dead in the first place.</p>
+<p><supplied source="https://www.taylorfrancis.com/books/e/9781351784122/chapters/10.4324%2F9781315202129-9">This is why we love ourselves in the loud and public way we do — because we have to counter his death with the very same force with which such deaths attack our souls</supplied>. The writer and academic <persName>Eve L. Ewing</persName> told me a story about her partner, a professor of economics at the University of Chicago: When it is time for graduation, he makes the walk from his office to the celebration site in his full regalia — the gown with velvet panels, full bell sleeves and golden piping, the velvet tam with gold-strand bullion tassel. And when he does it, every year, like clockwork, some older <choice><orig>black</orig><reg>Black</reg></choice> woman or man he doesn’t know will pull over, roll down their window, stop him and say, with a slow head shake and a deep, wide smile, something like: “I am just so proud of you!”</p>
+<p>This is how we do with one another. We hold one another as a family because we must be a family in order to survive. Our individual successes and failures belong, in a perfectly real sense, to all of us. That can be for good or ill. But when it is good, it is very good. It is sunlight and gold on vast African mountains, it is the shining splendor of the Wakandan warriors poised and ready to fight, it is a collective soul as timeless and indestructible as vibranium. And with this love we seek to make the future ours, by making the present ours. We seek to make a place where we belong.</p>
+      </body>
+  </text>
+</TEI>
