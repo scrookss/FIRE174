@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Impact of Shuri on Young Black Girls</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="paragraphs" quantity="18">18 paragraphs of the article were encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-12-09">December 9, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">Shuri from Black Panther is inspiring a generation of young women in STEM</title>
+<author xml:id="RT">
+<forename>Rachel</forename>
+<surname>Thompson</surname>
+</author>
+<publisher>
+<orgName xml:id="MASH">Mashable</orgName>
+</publisher>
+<pubPlace>
+<settlement>New York</settlement>
+<region>New York</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2018-06-29">June 29, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+<author>
+<persName xml:id="JRH">
+<forename>Jesse</forename>
+<surname>Rhines</surname>
+</persName>
+</author>
+<title>Black Film/Black Future</title>
+</analytic>
+<monogr>
+<title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+<imprint>
+<publisher>The Black Scholar</publisher>
+<pubPlace>
+<settlement>San Francisco</settlement>
+<region>California (<abbr>CA</abbr>)</region>
+<country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+<date when="2015-04-14">April 14,2015</date>
+</imprint>
+</monogr>
+<note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <hyphenation eol="none">
+            <p>Except where normalization disrupts the formatting of the digital surrogate when rendered online, all hyphenation between words in the original source material has been reformed. The <gi>choice</gi> element has been used to enclose <gi>orig</gi> and <gi>reg</gi> elements giving the original hyphenation and regularized version, respectively.</p>
+         </hyphenation>
+         <normalization method="silent">
+           <p>Whenever necessary, spacing between words and following punctuation has been regularized to zero spaces; spacing between words has been regularized to one space.</p>
+       </normalization>
+         <normalization>
+         <p>The B in Black and Blackness was capitalized throughout the text to amplify Black people.</p>
+         <p>There were a few advertisements present throughout this article that we decided to omit. We beleived that they took away from the importance of the article and the amplifcation of Letitia Wright's character.</p>
+         </normalization>
+<p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+<p>Hyperlinks to other sources that the author included have been retained. They are encoded using <gi>addition</gi> with the the link to the source that the author was citing in her piece.</p>
+          </editorialDecl>
+  <samplingDecl>
+  <p>The entire article of 18 paragrpahs was encoded because we believe the author, Rachel Thompson, did a good job at capuring the importance of Letitia Wright's character and the impact it has had on young Black girls.</p>
+  <p>The 2 pictures of the various characters in the film were retained because we believed they provided context to the article and further amplified the character Shuri.</p>
+  <p>Advertisments as well as the video in the middle of the article was not encoded because we believe it took away from the amplification of the characters and Black culture/people.</p>
+  <p>We decided to encode and provide links to two of the videos that were embedded into the article. These videos were two different interviews with Letitia Wright. We beleive that these videos were importatnt to include because quotes from these interviews were used throughout the article.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+<person>
+<persName xml:id="LW" ref="http://id.loc.gov/authorities/names/no2018064908">
+<forename>Letitia</forename>
+<surname>Wright</surname>
+</persName>
+<idno type="LCAF">no2018064908</idno>
+<note>Letitia Wright is an actress who played Shuri in Black Panther. It important that she is amplified because she provided representation for Black girls and women interested in technology that is oftentimes not present in films. She has been praised specifically by Black women all over Twitter and other digital spaces.</note>
+</person>
+</listPerson>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
+  <date when="2018-12-09">December 9, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+  <body>
+<figure>
+<media mimeType="video/mp4" url="https://mashable.com/2018/06/29/letitia-wright-interview/#NsAnYvEspmq0?jwsource=cl"></media>
+</figure>
+<p>When <persName ref="#LW">Letitia Wright</persName> played <persName>Shuri</persName> in Black Panther, <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">she brought something to our screens that we hadn't seen before <choice><orig>—</orig><reg>,</reg></choice>a hip engineering mastermind who just so happens to be a princess of an indomitable kingdom</supplied>.</p>
+<p>For young women working in science, technology, engineering, and maths (STEM) — and school girls who aspire to enter these fields — <persName ref="#LW">Wright's</persName> superhero character achieved overnight hero status. And, rightfully so.</p>
+<p>But, <persName ref="LW">Wright</persName> isn't about to let her character's impact fade away anytime soon. She's working with young female engineers who are building technology that will shape our future.</p>
+<p>"I got a lot of messages, especially from young women, who were so happy to see themselves on screen, they were so happy to see someone making science and technology cool," <persName ref="#LW">Wright</persName> tells <orgName>Mashable</orgName>. <persName>Shuri's</persName> draw, <persName ref="#LW">Wright</persName> feels, is just how <choice><orig>down-to-earth</orig><reg>down to earth</reg></choice> and relatable her character is. She's super smart, yes, but she's hip and cool, too.</p>
+<p>"<persName>Shuri</persName> is appealing and inspiring to so many women around the world because she's just relatable, she's like, a princess but everything about her is 'girl next door,'" <persName ref="#LW">Wright</persName> says. "So many young girls saw themselves like, that's me, that's how I pick on my brother, that's how I think about things, that's how I get excited about creating."</p>
+<p>In the <placeName>UK</placeName>, <add source="https://www.wisecampaign.org.uk/statistics/women-in-stem-workforce-2017/">only 23 percent of the STEM workforce is female</add>. Things are changing, thankfully. <orgName>Per the Wise</orgName> campaign, more women than ever before are working in STEM. In 2017, 61,430 more women worked in STEM than in 2016. But, an absence of female role models is something that's been cited as a reason for this gender imbalance in this field.</p>
+<figure>
+<graphic url="https://i.amz.mshcdn.com/yVAr2S4PWq6WtrlcvkHpywuAX_c=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F801304%2F2b4c051e-438c-4823-acd5-b99c935c41ab.jpg"></graphic>
+<figDesc>This photo shows Letitia Wright and Chadwick Boseman as their respective characters in the film. They stand in Shuri's laboratory where she creates a lot of important gadgets used by some of the characters.</figDesc>
+</figure>
+<p>After Black Panther came out, <persName ref="#LW">Wright</persName> says she received a <choice><orig>"flood-load"</orig><reg>"flood load"</reg></choice> of messages from girls saying: "hey that's me, I feel cool again." But, these messages were surprising to <persName ref="#LW">Wright</persName>, who responded saying: "What do you mean you feel cool again?"</p>
+<p>"When you're a kid and you're doing so well in these subjects, sometimes you can be called a nerd," she says. <persName ref="#LW">Wright</persName> says that the meaning of the word "nerd" has evolved since she was at school. "Back then, when I was growing up, being a nerd was not a cool thing, and so many people felt isolated just because they like science, just because they were acing their maths exams or homework, they were looked down upon."</p>
+<p>But, through her role in Black Panther, <persName ref="#LW">Wright</persName> has sent a clear message to young women: Being a nerd is cool. Being a woman in STEM? Even cooler.</p>
+<figure>
+<graphic url="https://i.amz.mshcdn.com/YLRW73BsUC8k3LLKHKpXWdC7DtI=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F801330%2Fab27b9e9-bc75-4ffd-aa4f-d929d6665da2.jpg"></graphic>
+<figDesc>This photo is of Shuri using a weapon she created during an important fight scene in the film.</figDesc>
+</figure>
+<p>"Now that you have a character and so many other girls are doing it too, you have a character that's so well rounded and so relatable, that those girls that don't feel isolated anymore," says <persName ref="#LW">Wright</persName>. "This person is sticking up for me, this person is saying, 'hey I am cool.'"</p>
+<p><persName ref="#LW">Wright</persName> has, in turn, been inspired by the young women she's represented <choice><orig>on-screen</orig><reg>on screen</reg></choice>. That's why she's supporting <add source="https://uk.makethefuture.shell/shell-eco-marathon.html?gclid=EAIaIQobChMIjOXGquD22wIVTF8ZCh2W7Q6yEAAYASAAEgK43fD_BwE">Shell's <choice><orig>Eco-marathon</orig><reg>Eco marathon</reg></choice></add>, an event which will see bright young engineers battle it out in an engineering challenge to produce an <choice><orig>energy-efficient</orig><reg>energy efficient</reg></choice> car.</p>
+<p>During this project, <persName ref="#LW">Wright</persName> met four female engineering students from diverse backgrounds who she describes as "the most amazing group of people I've met so far." "They made my responsibility of playing <persName>Shuri</persName> even more real," says <persName>Wright</persName>. "They're really motivated to make our world better and I would not be surprised if they created the next thing that moves us forward in terms of technology."</p>
+<figure>
+<media mimeType="video/mp4" url="https://youtu.be/gtX79PAWAOw"></media>
+</figure>
+<p><persName ref="#LW">Wright</persName> is keen to continue flying the STEM flag in future acting roles. <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">She believes that <choice><orig>on-screen</orig><reg>on screen</reg></choice> representation is vital in showing young women that entering the STEM field is achievable and accessible</supplied>. "The more that we see them, the more it's embedded in our society, the more that it becomes normal," she says.</p>
+<p>"It'll be so fresh to hear a young kid be like, 'oh mum I'm gonna be a scientist,' and it's not like, 'woah, oh my god, how are you gonna do this? Where do we find the funding. Are you that smart?'</p>
+<p>She wants young women who aspire to work in the STEM field to be told "you can do it because we've seen it so many times, and it's embedded in our society, and it's embedded in us that it is possible to go ahead and try that."</p>
+<p>She doesn't want young women in STEM to feel isolated any longer. Most of all, she wants them to succeed.</p>
+<p>"We can have another <persName>Steve Jobs</persName>, but a female one," she says.</p>
+<p>Long may <persName>Shuri</persName> reign.</p>
+  </body>
+  </text>
+</TEI>

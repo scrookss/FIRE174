@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">A Reaction to Black Panther II</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname>Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="time" quantity="5.5">5 minutes and 30 seconds of the video were encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-12-09">December 9, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">Black Panther Movie Review!!</title>
+<title type="sub">So many Hidden Messages!!</title>
+<author xml:id="MM">
+Mackaveli Millz
+<note>This is a Youtube username.</note>
+</author>
+<publisher>
+<orgName xml:id="YOUT">Youtube.com</orgName>
+</publisher>
+<pubPlace>
+Youtube.com
+<note>This is a Black place considering many Black Youtubers use this platform to express their beliefs, feelings, and attitudes towards different aspects of the world around them.</note>
+</pubPlace>
+<date when="2018-02-18">February 18, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="JRH">
+  <forename>Jesse</forename>
+  <surname>Rhines</surname>
+  </persName>
+  </author>
+  <title>Black Film/Black Future</title>
+  </analytic>
+  <monogr>
+  <title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+  <imprint>
+  <publisher>The Black Scholar</publisher>
+  <pubPlace>
+  <settlement>San Francisco</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date when="2015-04-14">April 14,2015</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+  </biblStruct>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="MDA">
+  <forename>Marlene D</forename>
+  <surname>Allen</surname>
+  </persName>
+  </author>
+  <title type="main">If You Can See It, You Can Be It</title>
+  <title type="sub">Black Panther’s Black Woman Magic</title>
+  </analytic>
+  <monogr>
+  <title level="j">Africology: The Journal of Pan African Studies (<abbr>JPAS</abbr>)</title>
+  <imprint>
+  <publisher></publisher>
+  <pubPlace>
+  <settlement>Santa Clarita</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date>August 2018</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Marlene Allen's piece works to connect CaShawn Thompson's 2013 phrase "Black girl magic" to the Black Panther film. She describes the Black excellence of the women in the film as "Black women magic". She goes into great detail when describing each of the Black actress's role and explains why they emulate "Black women magic". Allen's emphasis on amplififying the importance of these Black women characters in the film is vital to our project considering there has been a lot of attention paid to amplifying the voices of Black women and men who have contributed to the Black Panther conversation.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+            <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+          </normalization>
+  <p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+            </editorialDecl>
+    <samplingDecl>
+    <p>Only 5 minutes and 30 seconds out of the 10 minute and 8 second video was encoded. This was due to the fact that we beleive that the information that we transcribed was what was most important for the scope of our project.</p>
+    </samplingDecl>
+  <projectDesc>
+    <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson</p>
+  </projectDesc>
+    </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!--AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">United States English</language>
+      </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+<persName xml:id="CB" ref="http://id.loc.gov/authorities/names/no2007055071">
+<forename>Chadwick</forename>
+<surname>Boseman</surname>
+</persName>
+<idno type="LCAF">no2007055071</idno>
+<note>Chadwick is an actor who played T'Challa in Black Panther. His character as well as himself is very important for the project considering he has provided accurate representation for many Black men and boys. Many people have used digital spaces to discuss the impact of his character.</note>
+  </person>
+  <person>
+  <persName xml:id="MBJ" ref="http://id.loc.gov/authorities/names/no2012065564">
+  <forename>Michael B.</forename>
+  <surname>Jordan</surname>
+  </persName>
+  <idno type="LCAF">no2012065564</idno>
+  <note>Michael B. Jordan is an actor who happened to play Killmonger in Black Panther. Himself and his character are important to the project considering the large amount of uproar on digital spaces that were a result of both his physical appearance but the actions of his character. Black people on online spaces discussed the implications of Michael's character in great detail.</note>
+  </person>
+  <person>
+    <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+      <forename>Ryan</forename>
+      <surname>Coogler</surname>
+    </persName>
+    <idno type="LCAF">no2014012055</idno>
+    <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people. This is why he directed the film the way that he did. He is partly responsible for the large amount of Black people taking to digital platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying.</note>
+  </person>
+</listPerson>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>4 minutes and 38 seconds of the video was left out due to the fact that we beleive that the information spoken by the author during this time period did not have anything to do with our project, made on
+    <date when="2018-12-09">December 9, 2018</date>
+  </change>
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
+  <date when="2018-12-09">December 9, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+      <p>
+        Greetings and salutations beautiful people! Listen I’m urging everybody to go see Black Panther immediately. If you haven’t seen it go see it. If you’ve seen it once go see it again cuz imma go see it again. It was just that powerful. Listen, um <persName ref="#CB">Chadwick Boseman</persName> is amazing. He’s been playing every Black man known uh to do something great for Black people: <persName>Thurgood Marshall</persName>, <persName>Jackie Robinson</persName>, <persName>James Brown</persName>...Black excellence. Now he is <persName>T’Challa</persName>, uh the king of <placeName>Wakanda</placeName>.
+    </p>
+      <p>
+        <persName ref="#MBJ">Michael B. Jordan</persName> as <persName>Killmonger</persName> is one the most interesting villains I have ever seen in any movie especially a <orgName>Marvel</orgName> movie because his character is complex. He is a villain because he is killing innocent people. His uh power surges are uncontrollable, but yet in still, you understand where he’s coming from. He makes very good points and when you have a villain like that it shows you, listen, you got a great movie on your hands because every villain--he’s not the typical “I’m just mad, I just want all the power to myself, blow up everything, no. He has a method to his madness. His method is that <placeName>Wakanda</placeName> is a country that has all these wonderful resources, but they’re not sharing it with any of their people, any of the other Black people that are being oppressed. They’re not sharing these resources and caring about other people outside of their own nation. And this spoke to me on many levels because um we have many people uh who are the bouge-wah, the bougie. They get money, they get status and forget about where they come from. Forget about their people. Forget about people um that look just like them in areas of poverty or they are becoming oppressed by people in the country. And it spoke to people through police brutality, the whole <orgName>Black Lives Matter</orgName> Movement. People that just have no resources, uh to elevate themselves and the bougie people say “I got mine, you get yours”--that type of mentality. So, his character tryna seek freedom for all of his people that spoke to me endearly and also when um <persName>Michael B. Jordan’s</persName> character, <persName>Eric Killmonger</persName>, he told <persName>T’Challa</persName> “Listen, you got a responsibility to help all these people, all your people, you’ve been leaving them hanging to dry. He said, “Listen, I’m not the king of the world, I’m the king of <placeName>Wakanda</placeName>”. And, now people gonna get mad at me for this, it spoke on about how you know our disconnect between Africa, the continent of Africa, and uh Black people in the United States. Because there are some African people in Africa who feel like us and them are not the same. We are not the same. Y’all are Americanized. Y’all not us, but at the same time we are all still your people. So the message of it all is to embrace your people and help people who are being oppressed. Specifically, you got a responsibility to help your people when nobody else will. So that’s why I was tied into his character.
+      </p>
+      <p>
+        <supplied source="http://jpanafrican.org/docs/vol11no9/11.9-special-3-Allen.pdf">I’m impressed with this movie because it displayed Black people, Black women in particular, in a way that we normally don’t see. These women were like they were like soldiers in here. They weren’t the typical stay at home and take care of the child nurturing women. They were the women who were on the front lines and willing to go to battle to protect their king, <persName>T’Challa</persName>,</supplied> even when the throne was overthrown by <persName>Killmonger</persName>. They were still riding for <persName>T’Challa</persName>, hard. And these women were technologically savvy like innovative like <persName>Shuri</persName> put <persName>Tony Starks</persName> to rest with how innovative she was. Like the things she was doing as a teenage girl because this character is supposed to--, it’s never said but she’s supposed to be a teenage girl. Her technological advancement, it was just great to see how advanced she was and how technologically inclined she is. And that’s to show that uh Black people that we can be technologically savvy and be innovative in our own minds--there’s nothing wrong with that, there’s nothing with being a math wiz or a science genius because great things can come about it… come about from it as you see with <persName>Shuri</persName>. And, overall, the cast was just wonderful man even my boy from “Get Out”.
+      </p>
+      <p>
+        Because a lot of times our people tell us, “Listen, go to school and major in something that makes money. Don’t do film studies not no money in this, but you got people like <persName>Spike Lee</persName> out here, you got people like a young <persName ref="#RC">Ryan Coogler</persName> that’s out here making a difference with these movies and showing Black representation in a positive light. And that’s one thing I want to speak on, Black representation, um a lot of people feel like we’re making too big out of this. “Aww, it’s not the first Black character”, <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">but it is the first primarily Black cast in a movie where we have a Black superhero. Blade didn’t have that. So, this is something that is important because you’re seeing Black people in um character of things outside of being an alcoholic, outside of being a drunk, a gangbanger, uh just a violent brute. You see people with uh intelligence and people using their innovative skills to prevail and help other people.</supplied> So thats' something that you need to see because when I was in grad school, Imma tell y’all this story, when I was in grad school people from overseas had negative images of Black people because of the things they saw on TV. If you’re not around these people what do you have to go off of? You have television shows to go off of to judge Black people and they were seeing Black people being killers and rapists and people just cussing and they just think Black people are ignorant. But when they come over here they see a totally different thing, a totally different side and they voice this to me. And say, “Y’all are some of the most coolest people I ever met in my life”. You know what I mean? So this is why Black representation in positive forms is very important. So that’s why I’m glad that we have this movie out man. It’s just everything about it is just phenomenal.
+      </p>
+    </body>
+  </text>
+</TEI>

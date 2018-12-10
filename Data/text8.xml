@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Impact of Black Panther</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname> Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="time" quantity="5.15">5 minutes and 9 seconds of the video was encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-12-09">December 9, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">The Power of Black Panther</title>
+<author xml:id="BUZZ">BuzzfeedVideo
+<note>This is a Youtube username.</note>
+</author>
+<publisher>
+<orgName xml:id="YOUT">Youtube.com</orgName>
+</publisher>
+<pubPlace>
+Youtube.com
+<note>This is a Black place considering many Black Youtubers use this platform to express their beliefs, feelings, and attitudes towards different aspects of the world around them.</note>
+</pubPlace>
+<date when="2018-02-24">February 24, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="JRH">
+  <forename>Jesse</forename>
+  <surname>Rhines</surname>
+  </persName>
+  </author>
+  <title>Black Film/Black Future</title>
+  </analytic>
+  <monogr>
+  <title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+  <imprint>
+  <publisher>The Black Scholar</publisher>
+  <pubPlace>
+  <settlement>San Francisco</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date when="2015-04-14">April 14,2015</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+</biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+            <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+          </normalization>
+        <p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+          </editorialDecl>
+  <samplingDecl>
+    <p>The entire 5 minute and 9 second video was encoded because we beleive the video captured many people's opinions of the film that were all important for this project.</p>
+    <p>The gestures that the people in the video make have been retained in order to get across their emotions towards the film.</p>
+  </samplingDecl>
+<projectDesc>
+  <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson.</p>
+</projectDesc>
+  </encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language ident="AAVE">African American Vernacular English</language> <!--AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+    <language ident="us-en">United States English</language>
+  </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+    <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+      <forename>Ryan</forename>
+      <surname>Coogler</surname>
+    </persName>
+    <idno type="LCAF">no2014012055</idno>
+    <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people. This is why he directed the film the way that he did. He is partly responsible for the large amount of Black people taking to digital platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying.</note>
+  </person>
+</listPerson>
+<listOrg>
+<org>
+<orgName xml:id="AAA" ref="http://id.loc.gov/authorities/names/no2018035296">African Artists Association</orgName>
+<idno type="LCAF">no2018035296</idno>
+<note>The African Artists Association is a nonprofit organization based in Lagos, Nigeria. Their main goal is to amplify Nigerian and other African artists. This organization is important for our project because they work to amplify Black artists just like we are working to amplify Black voices on digital spaces.</note>
+</org>
+</listOrg>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
+  <date when="2018-11-09">November 9, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <p><persName>Nathaniel Kweku</persName>: I woke up today just like hype man. I was like kente is coming on, got my beads.</p>
+        <p><persName>Adinett Nsabimana</persName>: you just feel all this electricity. It’s like, “AHHHHH”. It’s Black Panther (pounds fist into hand).</p>
+        <p><persName>Constance Ejuma</persName> “Stunt Performer - <persName>Dora Milaje</persName>”: We are here to talk about Black Panther and the kingdom of <placeName>Wakanda</placeName> and how incredible this moment is.</p>
+        <p><persName>Joshua Davis</persName>: Black Panther right? It’s just a superhero movie. No no no, it’s so much more than that. There’s a different kind of excitement. You can feel something is happening for the culture. So some friends of mine invited me to go to an advanced screening with the <orgName ref="AAA">African Artists Association</orgName> and watch this movie with a bunch of proud African people and to just really see what does this movie actually mean for us. (videos of <persName>Joshua Davis</persName> at the event) For our culture. For our people moving forward and to get to really tap into it on a more personal level, on a deeper level and what that means for being Black in America and for us celebrating our culture especially at this time during Black history month.</p>
+        <p>(Slide that says The Power of Black Panther)</p>
+        <p><persName>Joshua Davis</persName>: This feels like a moment doesn’t it?</p>
+        <p><persName>Sahndra Fon Dufe</persName>: Yeah, it’s a moment. It doesn’t feel like it is a moment.</p>
+        <p><persName>Constance Ejuma</persName>: There’s something in the air. There’s something spiritual that’s happening.</p>
+        <p><persName>Nathaniel Kweku</persName>: You’re like, wait it’s just a movie man like calm down like don’t get like don’t get too hype it’s just a movie. But then it’s like it’s a movie like about us!</p>
+        <p><persName>Constance Ejuma</persName>: It’s generated so much interest, so much excitement, so much momentum. It’s like we feel something special here.</p>
+<p><persName>Adinett Nsabimana</persName>: <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">To me representation matters. Black Panther, I see myself. The only time I’ve ever been able to see myself in films is either genocide movie or slavery movie, but now I can see myself as a queen.</supplied> (photo of the cast at the premiere)</p>
+<p><persName>Sahndra Fon Dufe</persName>: People are so excited for it. I have never seen people planning outfits for the premiere. (photos of people in African clothing at the premiere)</p>
+<p><persName>Adinett Nsabimana</persName>: They call their designer friend, “Hey can you make me uh a dress for Black Panther. (pictures of women in African clothing while doing the <placeName>Wakanda</placeName> signal) It’s almost like we’re part of the movie. It’s not a red carpet for us. We’re fans going to watch a movie, but at the same time, it’s like we’re apart of it. (photos of people in African clothing at the premiere)</p>
+<p><persName>Joshua Davis</persName>: Yeah</p>
+<p><persName>Adinett Nsabimana</persName>: (photos of people in African clothing at the premiere) We’re gonna show up you know royalty, kings, and queens.</p>
+<p><persName>Joshua Davis</persName>: For you, it was different because you, you’re in the movie.</p>
+<p><persName>Bambadjan Bamba</persName> “Militant Leader”: I am. (pictures of him on set) Honestly, everyone in Hollywood knew that this movie was happening. We were all like rooting for it. Every single one of my friends, my peers were like, “yo we gotta get in Black Panther man. How do we get in Black Panther? Actors were like calling production like I’m willing to work on this thing for free. Just hire, I don’t want pay I just want to be a part of it.</p>
+<p><persName>Constance Ejuma</persName>: Being on the set was just incredible. You were in the presence of people who knew that there was something really tremendous happening.</p>
+<p><persName>Bambadjan Bamba</persName>: To just see <persName ref="#RC">Ryan Coogler</persName> like in control of this huge production. The best technology, the best actors. I mean it’s really marrying Black culture; African culture.</p>
+<p><persName>Nathaniel Kweku</persName>: Being first generation Ghanaian American you always kind of question your place. Am I American? Am I African? You know with trying to identify as (uses hands for air quotes) African American.</p>
+<p><persName>Constance Ejuma</persName>: It’s about a dialogue uh between Africans and African Americans. It’s a really important you know conversation to have and it’s a really important idea to explore.</p>
+<p><persName>Joshua Davis</persName>: Yeah</p>
+<p><persName>Constance Ejuma</persName>: It’s a dream we’re having for ourselves that isn't being instigated by anyone. (picture of a man holding up his fist)</p>
+<p><persName>Nathaniel Kweku</persName>: You see people from the Carribean. (picture of the cast zooms in on actors from each region) You see people from the UK. You see people from East Africa, from West Africa, from America and it’s bringing together this unifying of all these different types of Black. What it does is it heals us.</p>
+<p><persName>Sahndra Fon Dufe</persName>: Minority (hand air quotes) cultures are hungry. They’re just hungry and the time has come where the hunger will see greatness that has not presented at all.</p>
+<p><persName>Joshua Davis</persName>: What do you think that’s gonna do for these next generations of kids to get to see this. (picture of kids sitting in a movie theater) Like what kind of impact do you think it can have?</p>
+<p><persName>Bambadjan Bamba</persName>: <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">I know how powerful imagery is. (picture of kids at movies holding Black Panther posters) I know how powerful movies are and especially when you’re a kid. To be able to see people that look like you. (picture kids sitting in a movie theater with Black Panther costumes on)  Dark skin on screen as superheroes, they’re smart, they’re elegant and they’re still paying respects to the tradition and the values and the culture.</supplied> (picture of a kid with Black Panther)</p>
+<p><persName>Joshua Davis</persName>: Yeah</p>
+<p><persName>Bambadjan Bamba</persName>: Like for me it’s like the youth can see that and dream about what’s possible in Africa.</p>
+<p>(video before the screening with <persName>Joshua Davis</persName> and his friend <persName>Curtis Taylor</persName>)</p>
+<p><persName>Joshua Davis</persName>: <persName>Curtis</persName> and I are here outside in front of Gromets on Hollywood Boulevard. This energy is incredible. We’re about to see Black Panther with the <orgName ref="#AAA">African Artist Association</orgName>.</p>
+<p><persName>Curtis Taylor</persName>: Woo!</p>
+<p><persName>Joshua Davis</persName>: Here we go! We can’t wait to see this. Talk to you guys after.</p>
+<p>(pictures of  the <orgName ref="#AAA">African Artist Association</orgName> at screening)</p>
+<p>(video after the screening with <persName>Joshua Davis</persName> and <persName>Sahndra Fon Dufe</persName>)</p>
+<p><persName>Joshua Davis</persName>: Was that amazing or what? Like what’d you think? Thoughts?</p>
+<p><persName>Sahndra Fon Dufe</persName>: Listen! If you feel my heart right now. I can’t breathe man. Like it was so emotional like they were like they went in on the whole like separation between Africans and African Americans and (takes a deep breath and breathes out)</p>
+<p>Various members of the <orgName ref="#AAA">African Artist Association</orgName>: It is by far one of the most powerful just I can’t even put into words. To see Africans, Blacks, I’m still on the verge of like cuz the connection of tears, the emotion.</p>
+<p>Various members of the <orgName ref="#AAA">African Artist Association</orgName>: WOOOOOO! <placeName>Wakanda</placeName> for life! (crosses arms into <placeName>Wakanda</placeName> signal)</p>
+<p>Various members of the <orgName ref="#AAA">African Artist Association</orgName>: I’m excited to be with my family.</p>
+<p>Various members of the <orgName ref="#AAA">African Artist Association</orgName>: <placeName>Wakanda</placeName> in the house!</p>
+<p>Various members of the <orgName ref="#AAA">African Artist Association</orgName>: We’ll be back! <placeName>Wakanda</placeName> forever!</p>
+<p><persName>Joshua Davis</persName>: For the culture.</p>
+<p><persName>Curtis Taylor</persName> (holding a Black Panther mask): Had to get it. Had to get it. I’m like literally like deadass emotional right now. I’m gonna keep this.</p>
+<p><persName>Joshua Davis</persName>: Yeah, that’s <persName>Curtis’</persName>. We out!</p>
+      </body>
+  </text>
+</TEI>

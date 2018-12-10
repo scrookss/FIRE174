@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/Vault/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Costumes of Black Panther</title>
+            <title type="sub">Digital Edition</title>
+            <author>
+              <persName xml:id="JLU">
+                <forename>Jessica</forename>
+                <surname>Lu</surname>
+              </persName>
+  <orgName xml:id="AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>)Initiative</orgName>
+            </author>
+            <respStmt>
+              <resp>Encoded by</resp>
+              <persName xml:id="SC">
+                <forename>Sophia</forename>
+                <surname>Crooks</surname>
+                </persName>
+              <persName xml:id="KG">
+                <forename>Kayla</forename>
+                <surname>Graham</surname>
+                </persName>
+            </respStmt>
+            <respStmt>
+              <resp>Original TEI template provided by</resp>
+              <persName xml:id="RAFF">
+  <forename>Raffaele</forename>
+  <surname>Viglianti</surname>
+              </persName>
+              <orgName xml:id="MITH">Maryland Institute for Technology in the Humanities (<abbr>MITH</abbr>)</orgName>
+            </respStmt>
+            <respStmt>
+            <resp>Original text transcribed by</resp>
+            <persName ref="#SC">
+              <forename>Sophia</forename>
+              <surname> Crooks</surname>
+              </persName>
+            <persName ref="#KG">
+              <forename>Kayla</forename>
+              <surname>Graham</surname>
+            </persName>
+          </respStmt>
+          <funder>
+  <orgName xml:id="MELLON">Andrew W. Mellon Foundation</orgName>
+  <orgName xml:id="FIRE">First-Year Innovation and Research Experience (<abbr>FIRE</abbr>)</orgName>
+          </funder>
+         </titleStmt>
+         <editionStmt>
+           <edition n="1">First Edition</edition>
+</editionStmt>
+         <extent>
+           <measure unit="time" quantity="11.8666667">11 minutes and 52 seconds of the video were encoded.</measure>
+           </extent>
+           <publicationStmt>
+             <publisher>
+               <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
+             </publisher>
+             <date when="2018-12-10">December 10, 2018</date>
+             <pubPlace>
+              <settlement>College Park</settlement>
+              <region>Maryland</region>
+             </pubPlace>
+             <availability status="free">
+             <p>In the public domain.</p>
+           </availability>
+  </publicationStmt>
+  <seriesStmt>
+    <title type="main">Encoding for Black Lives: Legacies of Resistance and Reinvention in the (Re) Making of Black Freedom Online</title>
+    <title type="sub">Black Panther</title>
+    <respStmt>
+  <resp>Edited by</resp>
+  <persName>
+  <forename ref="#JLU">Jessica</forename>
+  <surname>Lu</surname>
+  </persName>
+    </respStmt>
+    <respStmt>
+  <resp>Texts identified and assembled by</resp>
+  <persName ref="#SC">
+  <forename>Sophia</forename>
+  <surname>Crooks</surname>
+  </persName>
+  <persName ref="#KG">
+  <forename>Kayla</forename>
+  <surname>Graham</surname>
+  </persName>
+    </respStmt>
+  </seriesStmt>
+      <sourceDesc>
+        <listBibl>
+<bibl>
+<title type="main">Black Panther's Costume Designer Breaks Down T'Challa's Entrance Scene</title>
+<title type="sub">Vanity Fair</title>
+<author xml:id="VF">
+Vanity Fair
+<note>This is a Youtube username.</note>
+</author>
+<publisher>
+<orgName xml:id="YOUT">Youtube.com</orgName>
+</publisher>
+<pubPlace>
+Youtube.com
+<note>This is a Black place considering many Black Youtubers use this platform to express their beliefs, feelings, and attitudes towards different aspects of the world around them.</note>
+</pubPlace>
+<date when="2018-05-08">May 8, 2018</date>
+</bibl>
+<bibl xml:id="JLUDISS">
+<title type="main">Reckoning with Freedom</title>
+<title type="sub">Legacies of Exclusion, Dehumanization, and Black Resistance in the Rhetoric of the Freedmen's Bureau</title>
+<author>
+<persName ref="#JLU">
+<forename>Jessica</forename>
+<surname>Lu</surname>
+ </persName>
+</author>
+<publisher>
+  <orgName xml:id="UMD">University of Maryland</orgName>
+</publisher>
+<pubPlace>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+</pubPlace>
+ <date when="2018-06-28">28 June 2018</date>
+</bibl>
+<bibl>
+ <interpGrp resp="#LUDISS" type="freedom-ideas">
+   <desc>Ideational analysis of freedom.</desc>
+   <interp xml:id="STRAND1">Strand 1</interp>
+   <interp xml:id="STRAND2">Strand 2</interp>
+   <interp xml:id="STRAND3">Strand 3</interp>
+   <interp xml:id="STRAND4">Strand 4</interp>
+   <interp xml:id="STRAND5">Strand 5</interp>
+ </interpGrp>
+</bibl>
+</listBibl>
+<biblStruct type="article">
+  <analytic>
+  <author>
+  <persName xml:id="JRH">
+  <forename>Jesse</forename>
+  <surname>Rhines</surname>
+  </persName>
+  </author>
+  <title>Black Film/Black Future</title>
+  </analytic>
+  <monogr>
+  <title level="j">The Black Scholar: Journal of Black Studies and Research</title>
+  <imprint>
+  <publisher>The Black Scholar</publisher>
+  <pubPlace>
+  <settlement>San Francisco</settlement>
+  <region>California (<abbr>CA</abbr>)</region>
+  <country>United States of America (<abbr>USA</abbr>)</country>
+  </pubPlace>
+  <date when="2015-04-14">April 14,2015</date>
+  </imprint>
+  </monogr>
+  <note>In this article, Jesse Rhines' broad overview of past Black films implies the lack of represenation as well as lack of accurate representation of Black people in films. He describes the way in which films portraying Black people have changed over the years as well as remained relatively stagnant. This is important to our digital project in that it magnifies the importance of a movie like Black Panther that has done an amazing job at representing Black people in a way that they have been waiting for all along. It also expresses the importance of ampifying what Black people have to say about this movie as a form of resistance from films that portray various harmful sterotypes of Black people.</note>
+  </biblStruct>
+  </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <normalization source="https://www.newyorker.com/magazine/2017/05/15/the-case-for-black-english">
+            <p>Instances of African American Vernacular English have purposefully NOT been adjusted to comply with American English language practices. African American Vernacular English is wholly valid in its form, features, and creativity, despite the dominance and presumed correctness of American English.</p>
+          </normalization>
+  <p>Encoding includes the use of <gi>supplied</gi> to provide clarificationand supporting content, including out-links to relevant digital content and citations of Black and Black-centric academic research.</p>
+            </editorialDecl>
+    <samplingDecl>
+    <p>Only 11 minutes and 52 seconds out of the 13 minute and 46 second video was encoded. This was due to the fact that we beleive that the information that we transcribed was what was most important for the scope of our project.</p>
+    </samplingDecl>
+  <projectDesc>
+    <p>This project seeks to identify, collect, preserve, and analyze FREEDOM discourse, as constituted and argued by Black users online. Directed by Dr. Jessica H. Lu, this project is currently being advanced by several undergraduate students at the University of Maryland, College Park: Sophia Crooks, Kayla Graham, Kaanita Iyer, Ariana Lawson, Alice Liu, and Courtney Richardson</p>
+  </projectDesc>
+    </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="AAVE">African American Vernacular English</language> <!--AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
+      <language ident="us-en">United States English</language>
+      </langUsage>
+  <particDesc>
+<listPerson>
+  <person>
+  <persName xml:id="RUC" ref="http://id.loc.gov/authorities/names/no92026494">
+  <forename>Ruth</forename>
+  <surname>Carter</surname>
+  </persName>
+  <idno type="LCAF">no92026494</idno>
+  <note>Ruth Carter along with Hannah Beachler were costume designers who worked to create the Afrocentric costumes for the Black Panther film. Ruth as a Black woman costume designer was extremely important to the film because she did an amazing job at providing so much representation from multiple African tribes.</note>
+  </person>
+  <person>
+    <persName xml:id="RC" ref="http://id.loc.gov/authorities/names/no2014012055">
+      <forename>Ryan</forename>
+      <surname>Coogler</surname>
+    </persName>
+    <idno type="LCAF">no2014012055</idno>
+    <note>Ryan Coogler is a motion picture producer and director. He is the director of Black Panther and had a lot of power in terms of the decisions he made to accurately represent Black people. He is signifiant to this digital project because he, like many other Black people, have been longing for a movie that postively represents Black people. This is why he directed the film the way that he did. He is partly responsible for the large amount of Black people taking to digital platforms to voice their attitudes towards the movie which we are very much focused on perserving and amplifying.</note>
+  </person>
+</listPerson>
+<listOrg>
+<org>
+<orgName xml:id="VAT">Various African tribes</orgName>
+<note>There were several African tribes amplified throughout this digital surrogate. Each tribe deserves to be amplified seperately which is why they were all given seperate xmi ids in the body of the text. The tribes are not listed seperately here but rather as a larger group because their information on the Library of Congress does not exist. This is due to the the erasure of Black people. However, we still beleive it is important that the African tribes in this film be recognized considering so many of them were represented in this film through the costumes, hair styles, makeup, and cultural customs of the characters.</note>
+</org>
+</listOrg>
+  </particDesc>
+</profileDesc>
+<revisionDesc>
+<listChange>
+  <change> 1 minute and 54 seconds of the video was left out due to the fact that we beleive that the information spoken by the author during this time period did not have anything to do with our project, made on
+    <date when="2018-12-10">December 10, 2018</date>
+  </change>
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
+  <date when="2018-12-10">December 10, 2018</date>.
+  </change>
+</listChange>
+</revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+<p>
+  Hi, I’m <persName ref="#RUC">Ruth Carter</persName>, the costume designer for the Black Panther and these are notes on a scene. We’re talking about the scene where the Black Panther arrives in <placeName>Wakanda</placeName> after rescuing <persName>Nakia</persName>. He is greeted by his mother the <persName>Queen Ramonda</persName> and his sister <persName>Shuri</persName>. (plays a part of the scene) And then we’re also talking about the warrior falls. <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">The storytelling element has everything to do with honoring tradition the different areas of Africa that have such a rich history and culture</supplied>. So as <persName>T’Challa</persName> enters <placeName>Wakanda</placeName> on the landing pad we’re greeted by the <persName>Queen Ramonda</persName>. She’s wearing what I call her shoulder mantle (starts outlining picture of <persName>Angela Basset</persName> as <persName>Queen Ramonda</persName> wearing the isicholo) including the isicholo…(emphasizes the fanatic spelling), which is the South African married woman’s hat and when I looked at this hat I felt like it looked like a crown. And I really wanted it to be perfectly shaped and the only way we could get it perfectly shaped was to have it 3D printed. Along with her shoulder mantle which is patterned from African lace it’s put into a computer and there are algorithms that are designing these beautiful lines in this beautiful lace. And then it’s 3D printed with a flexible material so she could actually get it on and get it off and wear it. It’s wearable art. (plays a part of the scene) And then you have <persName>Shuri</persName> who is wearing an Adinkra symbol. This Adinkra symbol means purpose and she certainly has a purpose in <placeName>Wakanda</placeName>. (plays a part of the scene) Over on your left, you see <persName>Florence Kasumba</persName> (referring to the screencap of the three women) who is one of our Dora Milaje. She is wearing silver metallic armor. <persName ref="#RC">Ryan Coogler</persName> really wanted all of the armor on the Dora Milaje to look like jewelry and so we made sure it had a brilliant shine. There’s this area of the Dora Milaje (referring to the chest piece of the armor) that I like to call the harness. I wanted the harness to look like it was hand tooled. Hand tooled by the same special craftsman of <placeName>Wakanda</placeName> that would make the Queen’s costume because it’s a great honor for someone to be a Dora Milaje. They also wear neck rings and arm rings that a from South Africa just like the <orgName xml:id="NDE">Ndebele</orgName> tribe. The beadwork is inspired by the <orgName xml:id="TURK">Turkana</orgName> tribe so you see different regions of Africa. (plays a part of the scene) <persName>Nakia</persName> is a war dog, she is a Nigerian princess. <persName>Nakia</persName> wears green. Right here a river stone (referring to <persName>Nakia’s</persName> necklace) and it’s something that we wanted to include to signify her tribe and her country. She is a spy and she was undercover as a Muslim girl and she wore a burqa type drape when she was a spy and then she takes it off and underneath it, all is her fighting costume. On the other side of <persName>T’Challa</persName>, we have <persName>Okoye</persName> who is played by <persName>Danai Gurira</persName> and she is wearing gold armor and that signifies that she is the leader of the Dora Milaje. And then in the middle, we see <persName>T’Challa</persName>, his costume here is from Captain America Civil War. He has a triangular pattern that we infused in the suit. It’s kind of like the sacred geometry of Africa not only makes him a superhero it also makes him an African king.
+</p>
+<p>
+  Here we are at the warrior falls and we have <persName>Zuri</persName>. (shows a screencap of <persName>Zuri</persName> during the scene) He is our Shaymin of <placeName>Wakanda</placeName> and he was to represent all the tribes of <placeName>Wakanda</placeName>. Nigerian men wear these big open shaped garments. You also see beading along his front tabard and the front tabard beading was in the tradition of the <orgName ref="#TURK">Turkana</orgName> tribe. <persName>Zuri’s</persName> poncho is made up of tiny tubes that are sewn together made of silk. It also drapes along back so that when he’s standing in the water they would blow and billow and make it have this magical effect. The color, the beadwork, the modern drape makes him somewhat of a witch doctor. He has his face painted and he is our spiritual leader in <placeName>Wakanda</placeName>. You see here little details of <persName>Zuri’s</persName> sleeve and they’re kind of triangular shaped. This shape we used a lot in the design of the Black Panther. These, in particular, are from the <orgName ref="#TUA">Tuareg</orgName> as well as the color. The <orgName ref="#TUA">Tuareg</orgName> used this beautiful aubergine with silver and Black in their traditional dress. (shows scene of a Wakandian Merchant tribe) Here we have the Merchant tribe elder. Her name is <persName>Dorothy</persName> and <persName>Dorothy</persName> has these gigantic earrings on. They’re beautiful in their glory. She’s also wearing Ethiopian crosses down the front of her drape. She also has her turban adorned with the same <orgName ref="#TUA">Tuareg</orgName> (circles turban on a screencap of the elder) symbols so she is our leader of the Merchant tribe which is based on all of the beauty of the <orgName ref="#TUA">Tuareg</orgName> and behind her, you see more of it, you see more of the drapes. Standing with her is her fierce warrior and he is adorned in the same ancient African traditional style of the <orgName ref="#TUA">Tuareg</orgName> tribe. Having some symbols having some crosses as well as covering his face as the men did. Here we have the <orgName xml:id="BOR">Border</orgName> tribe. (Shows screencap of <orgName ref="#BOR">Border</orgName> tribe) We have our <orgName ref="#BOR">Border</orgName> tribe elder and he’s wearing his <orgName ref="#LES">Lesotho</orgName> inspired heart shape drape over his head and he’s also adorned in his <orgName xml:id="LES">Lesotho</orgName> blanket which we added vibranium to. The vibranium was printed on top of the <orgName ref="#LES">Lesotho</orgName> blankets so they would have a shield like ability so they could fight with their blankets as if they were shields. You have <persName>Daniel Kaluuya</persName> who plays <persName>W’Kabi</persName> and he is a <orgName ref="#BOR">Border</orgName> tribe warrior. On his blanket, he has some of the Adinkra symbols and here behind him you see one of his soldiers wearing a <orgName ref="#LES">Lesotho</orgName> blanket that has the beautiful prints on it as well as he’s wearing the heart shape hats that they wear during the winter. (plays a part of the scene) Here is the <orgName xml:id="RIV">River</orgName> tribe and we see <persName>Lupita Nyong’o</persName> in her traditional beaded costume based on the <orgName xml:id="SUR">Suri people</orgName> of Africa and you see them along the rivers of different areas of Africa. You see a lot of them with children and they have sticks and flowers that they adorn their bodies with but she also has her warrior harness complete with the puka shells that signify her great wealth. Her <orgName ref="#RIV">River tribe</orgName> elder who is here seen with the lip plate to signify also his wealth and his status. His costume is completely made up. It’s beaded form African artifacts that I found at flea markets and then we made this warrior style caftan with a drape and we covered it with puka shells again to signify wealth as well as this beadwork that was taken from different artifacts that we found from Africa. The lip plate is a complete prosthetic and it is put on every day. It takes hours by the makeup department. He also has gauges in his ears that were painted with the design work that you’ll see in some of his other costumes but that day on set for him he has to drink his beverages from a straw but he still has the ability to hold a conversation. (plays a part of the scene) Here you see one very important element and that is the Kimoyo beads. Everyone in <placeName>Wakanda</placeName> wears Kimoyo bead because they are a source of communication. You can bring up holograms you can talk to people right through your Kimoyo beads. (plays a part of the scene) Here is the <orgName xml:id="MIN">Mining tribe</orgName> including the <orgName ref="#MIN">mining tribe</orgName> elder and her fierce warrior. The <orgName ref="#MIN">Mining tribe</orgName> elder is wearing a <orgName xml:id="HIM">Himba tribe</orgName> wig that incomplete with the little puffs that they wear on the bottom of it it’s ochre and shea butter and it makes up this wonderful piece. The amber crown we made for her it’s something that I had as an inspiration or Roots, the other film that I have done and I brought it on because it framed her face so beautifully. Her warrior here is wearing a <orgName xml:id="MAAS">Maasai</orgName> headdress. His headdress is worn by <orgName ref="#MAAS">Maasai</orgName> warriors and the bigger the feathers or the fur that goes around the headdress the more fierce a warrior you are. The beadwork that is done around the face is done by head by craftspeople but this one happened to be done by hand by me. Late night in the costume shop because I was on insistent on having this headdress in this scene. These drapes are just a real long piece of fabric and just have to be knotted on the shoulder. Kind of a free form creative process on the day and here to the left you see more of the miners and the miners wear this gorgeous orange and red combination similar to the <orgName ref="#TURK">Turkana tribe</orgName>.
+</p>
+<p>
+  Here we have <persName>Shuri</persName>, <persName>Shuri</persName> is wearing her traditional costume that she’s super uncomfortable in. It is inclusive of this what she calls little MC underbite and also these special beads that are real African beads that are made. Some of them are made of clay some of them are made of rolled paper. In the back, you can’t see it really but in the back of her costume is this sort of like a spear but it’s a corset form the <orgName ref="#DIN">Dinka</orgName> tribe and it travels around her body. It attaches in the front and it has a long spear up the back. We wanted her to have all this stuff on her face and around her body so she would be super uncomfortable and really did inspire her lines. (plays a part of the scene) Now you can see the <orgName xml:id="DIN">Dinka</orgName> corset, the way that it goes up in the back and it comes down the sides and it attaches. It has beads that go around her shoulds and this is her traditional costume to wear for that ceremony called the warrior falls. <supplied source="https://www.tandfonline.com/doi/pdf/10.1080/00064246.2003.11413203">It was inspiring to finally have a scene in the Black Panther where it was all about tradition, because of that it was really taking the research and applying it to all of the things that you gather, every color that you are inspired by and every texture that you have. We brought together so many elements all together in one place unlike you’ll see anywhere. We had the Northern African <orgName xml:id="TUA">Tuareg</orgName>. We had <orgName xml:id="MAL">Mali</orgName>. We have Nigeria represented, South Africa. It was a beautiful spectacle and so that was a way of kind of bringing our past forward and showing it in a way that was mystical and futuristic in a superhero film like you have never seen before</supplied>. I think storytelling like that is what the best stories are made of.
+</p>
+    </body>
+  </text>
+</TEI>

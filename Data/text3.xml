@@ -181,6 +181,9 @@ Youtube.com
   <langUsage>
     <language ident="AAVE">African American Vernacular English</language> <!--AAVE is purposefully listed first, to visually reinforce its validity alongside Standard American English and primacy among Black Americans. -->
     <language ident="us-en">United States English</language>
+    <language ident="Kenyan">Kenyan accent</language>
+    <language ident="Nigerian">Nigerian accent</language>
+    <language ident="Jamaican">Jamaican accent</language>
   </langUsage>
   <particDesc>
 <listPerson>
@@ -216,7 +219,7 @@ Youtube.com
   <change>5 minutes and 15 seconds of the video was left out due to the fact that we beleive that the information spoken by the author during this time period did not have anything to do with our project, made on
     <date when="2018-11-09">November 9, 2018</date>
   </change>
-  <change>The B in Black was capitalized throughout the the transcription to amplify Black people, made on
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
   <date when="2018-11-09">November 9, 2018</date>.
   </change>
 </listChange>

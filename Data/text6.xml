@@ -59,7 +59,7 @@
              <publisher>
                <orgName ref="#AADHum">African American History, Culture, and Digital Humanities (<abbr>AADHum</abbr>) Initiative</orgName>
              </publisher>
-             <date when="2018-11-12">November 12, 2018</date>
+             <date when="2018-12-09">December 9, 2018</date>
              <pubPlace>
               <settlement>College Park</settlement>
               <region>Maryland</region>
@@ -144,27 +144,26 @@
 <biblStruct type="article">
   <analytic>
   <author>
-  <persName xml:id="MDA">
-  <forename>Marlene D</forename>
-  <surname>Allen</surname>
+  <persName xml:id="CKS">
+  <forename>Catherine</forename>
+  <surname>Knight Steele</surname>
   </persName>
   </author>
-  <title type="main">If You Can See It, You Can Be It</title>
-  <title type="sub">Black Panther’s Black Woman Magic</title>
+  <title>The Digital Barbershop: Blogs and Online Oral Culture Within the African American Community</title>
   </analytic>
   <monogr>
-  <title level="j">Africology: The Journal of Pan African Studies (<abbr>JPAS</abbr>)</title>
+  <title level="j">SAGE journals</title>
   <imprint>
-  <publisher></publisher>
+  <publisher>University of Maryland Department of Communications</publisher>
   <pubPlace>
-  <settlement>Santa Clarita</settlement>
-  <region>California (<abbr>CA</abbr>)</region>
+  <settlement>College Park</settlement>
+  <region>Maryland (<abbr>MD</abbr>)</region>
   <country>United States of America (<abbr>USA</abbr>)</country>
   </pubPlace>
-  <date>August 2018</date>
+  <date when="2016-12-01">December 1, 2016</date>
   </imprint>
   </monogr>
-  <note>In this article, Marlene Allen's piece works to connect CaShawn Thompson's 2013 phrase "Black girl magic" to the Black Panther film. She describes the Black excellence of the women in the film as "Black women magic". She goes into great detail when describing each of the Black actress's role and explains why they emulate "Black women magic". Allen's emphasis on amplififying the importance of these Black women characters in the film is vital to our project considering there has been a lot of attention paid to amplifying the voices of Black women and men who have contributed to the Black Panther conversation.</note>
+  <note>In this article, Catherine Knight Steele explores nine blogs by various African Americans in order to analyze the rhetorical strategies they use. She found that online spaces have become comparable to Black barbershops and beauty shops in that Black people have begun to use the same rhetorical strategies they have used in the past. Black people use these blogs to crtique aspects scoiety as well as assert their Blackness. The comparison of online platforms as Black barbershops and beauty shops contributes to this digital edition project considering an immense amount of effort has been made to amplify Black twitter users, bloggers, and Youtubers. The language used to describe the Black Panther movie, specifically the language used to describe the impact of a movie that centralizes accurate representations of Black people has been mplified in this project. </note>
 </biblStruct>
   </sourceDesc>
       </fileDesc>
@@ -184,7 +183,7 @@
 <p>Hyperlinks to other sources that the author included have been retained. They are encoded using <gi>addition</gi> with the the link to the source that the author was citing in her piece.</p>
           </editorialDecl>
   <samplingDecl>
-  <p>The entire article of 19 paragrpahs was encoded because we believe the auhor, Tre Johnson, effectively described the celebration and representation of Black people in this film.</p>
+  <p>The entire article of 19 paragrpahs was encoded because we believe the author, Tre Johnson, effectively described the celebration and representation of Black people in this film.</p>
   <p>The 3 pictures of the various characters in the film were retained because we believed they provided context to the article and further amplified the Black characters of the film.</p>
   <p>Advertisments as well as the video in the middle of the article was not encoded because we believe it took away from the amplification of the characters and Black culture/people.</p>
   </samplingDecl>
@@ -250,8 +249,8 @@
 </profileDesc>
 <revisionDesc>
 <listChange>
-  <change>The B in Black was capitalized throughout the the transcription to amplify Black people, made on
-  <date when="2018-11-12">November 12, 2018</date>.
+  <change>The B in Black was capitalized throughout the transcription to amplify Black people, made on
+  <date when="2018-12-09">December 9, 2018</date>.
   </change>
 </listChange>
 </revisionDesc>
@@ -283,7 +282,7 @@
 <p>The excitement around Black Panther doesn’t exist in a vacuum; the film is the latest in a string of <choice><orig>high-water-mark</orig><reg>high water mark</reg></choice> moments for a <choice><orig>black</orig><reg>Black</reg></choice> pop culture landscape that’s experiencing a renaissance. Recent years have seen a new level of <choice><orig>black</orig><reg>Black</reg></choice> art that’s intertwined sociopolitical commentary with <choice><orig>high-caliber</orig><reg>high caliber</reg></choice> artistry: from <persName>Beyoncé’s</persName> Lemonade and <persName>Kendrick Lamar’s</persName> DAMN to Atlanta and Queen Sugar, there’s been a renewed focus on telling stories that broaden and sharpen the range of <choice><orig>black</orig><reg>Black</reg></choice> narratives.</p>
 <p>This expansion is significant given <choice><orig>black</orig><reg>Black</reg></choice> audiences’ complex relationship with Hollywood, which has typically presented a narrow slice of the <choice><orig>African-American</orig><reg>African American</reg></choice> narrative. It’s an industry that has often seemed invested in <choice><orig>black</orig><reg>Black</reg></choice> Americans primarily as slaves (12 Years a Slave), victims of <choice><orig>inner-city</orig><reg>inner city</reg></choice> strife (Detroit), or symbols of comfort (The Help) and is fixated on stories about the <choice><orig>post-Reconstruction</orig><reg>post Reconstruction</reg></choice> and civil rights eras and biopics of famous <choice><orig>black</orig><reg>Black</reg></choice> people that only glimpse at race.</p>
 <p>For a long time, it’s felt like the only stories about the <choice><orig>African-American</orig><reg>African American</reg></choice> experience Hollywood was interested in telling were stories that were intertwined in some way with the white experience, making this shift toward stories that center <choice><orig>black</orig><reg>Black</reg></choice> narratives as <choice><orig>black</orig><reg>Black</reg></choice> narratives feel both welcome and long overdue.</p>
-<p>A similar shift has been afoot in Hollywood offscreen in recent years. As #OscarsSoWhite launched a debate about the industry’s fidelity to representation and valuing nonwhite contributions, filmmakers like Moonlight’s <persName ref="BJ">Barry Jenkins</persName>, A Wrinkle in Time’s <persName>Ava DuVernay</persName>, and Get Out’s <persName ref="#JP">Jordan Peele</persName> have taken crucial pole positions as visionaries who are pushing the boundaries of <choice><orig>black</orig><reg>Black</reg></choice> representation on film. <persName>Coogler’s</persName> Black Panther joins these projects as a missing piece: a popcorn movie that uses the most mainstream of film genres — the superhero movie — to project the complexity of <choice><orig>black</orig><reg>Black</reg></choice> identity, politics, and creativity.</p>
+<p>A similar shift has been afoot in Hollywood offscreen in recent years. As #OscarsSoWhite launched a debate about the industry’s fidelity to representation and valuing nonwhite contributions, filmmakers like Moonlight’s <persName ref="#BJ">Barry Jenkins</persName>, A Wrinkle in Time’s <persName ref="#ADV">Ava DuVernay</persName>, and Get Out’s <persName ref="#JP">Jordan Peele</persName> have taken crucial pole positions as visionaries who are pushing the boundaries of <choice><orig>black</orig><reg>Black</reg></choice> representation on film. <persName>Coogler’s</persName> Black Panther joins these projects as a missing piece: a popcorn movie that uses the most mainstream of film genres — the superhero movie — to project the complexity of <choice><orig>black</orig><reg>Black</reg></choice> identity, politics, and creativity.</p>
 <p>Black Panther is in many ways an antidote to the <choice><orig>black</orig><reg>Black</reg></choice> American experience in 2018</p>
 <figure>
 <graphic url="https://cdn.vox-cdn.com/thumbor/NjnCR-KWdd-tLh-u2OolNCHJxRI=/0x0:2048x1080/920x0/filters:focal(0x0:2048x1080):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10165911/blackpantherjordan__1_.jpg"></graphic>
